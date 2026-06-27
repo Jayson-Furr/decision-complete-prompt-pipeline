@@ -59,7 +59,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "5396f1d1b05eb7ec24992b3cf9900765583d2cc19953843377c7c55b00bb2d05"
+      "sha256": "083ceae4feffa40a456b8c890cdce9e37aac6e47896591969374ad0fc89c8258"
     },
     {
       "path": ".gitignore",
