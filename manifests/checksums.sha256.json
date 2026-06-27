@@ -439,7 +439,7 @@
     },
     {
       "path": "examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv",
-      "sha256": "ec4fbd2495ead171b80b161b7e5061c7ae73258158c51fa1ab045b46215dd87f"
+      "sha256": "3048153bd3120353cd85d95adef89ee37585bb522359adff624a8a96e01ca7a7"
     },
     {
       "path": "examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-artifact.example.md",
@@ -575,7 +575,7 @@
     },
     {
       "path": "examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv",
-      "sha256": "3397da58458278d1caea1d177643ad472292e4d8999c6393a5799c38670105bb"
+      "sha256": "08bb4a4bb4baeb29e6023f37d0f7e088912a2fbc9ad9e93327002e7028542b53"
     },
     {
       "path": "examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-artifact.example.md",
@@ -703,7 +703,7 @@
     },
     {
       "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/validation-report.example.csv",
-      "sha256": "c1ce79a19bcf4a977f098c0510d0c35acf97463db0d3c92a3dc1628ba31e49dc"
+      "sha256": "32381882c81a26867c0c6c54ae4bccd7c20f28099c3174794715e30506431ac6"
     },
     {
       "path": "examples/minimal-complete-run/unity-button-click-prototype/05-side-by-side-review/decision-ledger-comparison-notes.md",
@@ -1055,7 +1055,7 @@
     },
     {
       "path": "manifests/final-release-checklist.csv",
-      "sha256": "ecf613c48a8dfab652cfd4c3cff163a9ae1eff17e4901544a4fb03a445b16f46"
+      "sha256": "37e1f009991e693af29d7f2531e42936c8667ec2c0b674aeae1bdf281f400a23"
     },
     {
       "path": "manifests/final-release-summary.json",
@@ -1323,7 +1323,7 @@
     },
     {
       "path": "tools/build-release-manifest.py",
-      "sha256": "2e40c624944d773306204ebec00b66966941ea07c481f4669c932069719a8cc7"
+      "sha256": "04aa9ff3bb8b2d6171df3da4c4f15e393b2a229a86677a448b523bc4869f4992"
     },
     {
       "path": "tools/run-all-checks.py",

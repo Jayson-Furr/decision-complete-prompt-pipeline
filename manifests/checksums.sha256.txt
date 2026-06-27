@@ -107,7 +107,7 @@ ba7b5b2dd71512af82cbabaf792a415520a619545de37a05ec1359abae7a80f5  examples/minim
 ab56daea6a26bce3a881a17f635d80d1e5cea6a2e8cd87e1db903aeb30b035b0  examples/minimal-complete-run/todo-web-app/00-source-input/user-input.md
 19bf0c638d6190cac1cf9f47e7cfd2d0f7292db1b71663d181fbca1324f59c19  examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-artifact.example.md
 e6a913d49d0276e5805b666e65d72757efeed0eb441cf0dc5004ee608269c073  examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-decision-ledger.example.csv
-ec4fbd2495ead171b80b161b7e5061c7ae73258158c51fa1ab045b46215dd87f  examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv
+3048153bd3120353cd85d95adef89ee37585bb522359adff624a8a96e01ca7a7  examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv
 883330ec3e6166cfaaa8e27d895f9e372e13ea5dee113017acc408141b35fe80  examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-artifact.example.md
 f09d7d3e85b49f178a3216fb311f76da5b5176c246d6fa71d8e2700fd81c9c94  examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-decision-ledger.example.csv
 0b95c73a1ce4d30aa45b9282309b0f3fa892c8b9c7d6a4693f8182f903a1bffa  examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-traceability-matrix.example.csv
@@ -141,7 +141,7 @@ ede72aea450da32f275c976a8a427566d21e6e72447e29fe4018643c51bee0eb  examples/minim
 8a42c6f0a9c1e50ab70cb73b24567491acd2d84880b24b5a4adde3d3c684f420  examples/minimal-complete-run/unity-button-click-prototype/00-source-input/user-input.md
 ce305d78d3941e47ae9b645226107b4617c23679b647b996ded9c200ec31d463  examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-artifact.example.md
 c4fb79811afe70893cb30a092c57e4ee97ffe7d09eaf63d837a6e909861b16c5  examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-decision-ledger.example.csv
-3397da58458278d1caea1d177643ad472292e4d8999c6393a5799c38670105bb  examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv
+08bb4a4bb4baeb29e6023f37d0f7e088912a2fbc9ad9e93327002e7028542b53  examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv
 847f6a9b3594e2ce2056e687c2327a85f7ed019f344add694b9ccd91d2803856  examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-artifact.example.md
 5202bb70d33165747e107deacaa83b6d4767ee7ac2ed8e6b71155db9561dce3b  examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-decision-ledger.example.csv
 b7fdd00ed2fd41d0c1c96a0cf0a8814258f67936da1ba4d9c8b9faed32d1aba7  examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-traceability-matrix.example.csv
@@ -173,7 +173,7 @@ cbd271775637c0e449522b349e3f0157129e949bba6cbdf147c84fa9d392b3bc  examples/minim
 d9e6a8fdc28716362c0ad21c84c14dedaffce79908387d5126c3f12f0c73c7d6  examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-final-artifact-manifest.example.json
 08915736fa73cdb022369c819710e30c93362df75d260b0f6031a8226cab0486  examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-final-handoff-packet.example.yaml
 a8d2ad4bc583f1e372b259c4ea0e1746275e4968467a81867363c7be14466139  examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-validation-report.example.csv
-c1ce79a19bcf4a977f098c0510d0c35acf97463db0d3c92a3dc1628ba31e49dc  examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/validation-report.example.csv
+32381882c81a26867c0c6c54ae4bccd7c20f28099c3174794715e30506431ac6  examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/validation-report.example.csv
 207c53823f396148a97cf11c93bbdd3858995e0dc5934d5a6dff1ac5c725683c  examples/minimal-complete-run/unity-button-click-prototype/05-side-by-side-review/decision-ledger-comparison-notes.md
 12a9d49f856c77d7c511fffe99c776d18e5bb3b911575475ba0c41c3ce8f8a4b  examples/minimal-complete-run/unity-button-click-prototype/05-side-by-side-review/traceability-walkthrough.md
 fba9581d4a833e9b678ae8dad5219664ea589c0dbc44f672c9c756c686946427  examples/minimal-complete-run/unity-button-click-prototype/README.md
@@ -261,7 +261,7 @@ de115447f3ddd237ed1beb352601ce95d9f55cda5ce32635cd013430113960fe  manifests/batc
 7c9a329222c08bfcee8f5995bf385d03aa41b45b897af6a6f1ce7e28e51e36fb  manifests/batch-7-summary.json
 d8c9b7f6517d026db9ee9414cfcccfe8182da281f0904af069a1b0e1072768eb  manifests/batch-8-summary.json
 beda5baf463f11b720699b7640761a522e2c36fbc8791a553c4ad2d576c5fd4d  manifests/batch-9-summary.json
-ecf613c48a8dfab652cfd4c3cff163a9ae1eff17e4901544a4fb03a445b16f46  manifests/final-release-checklist.csv
+37e1f009991e693af29d7f2531e42936c8667ec2c0b674aeae1bdf281f400a23  manifests/final-release-checklist.csv
 fc923b0189a00fc345c53f673ba690ed0dbe44fb7db8c189dc607291547f9448  manifests/final-release-summary.json
 28b729c11f381229c30383a796ee871a7af02898676205033bd0866fb097c3cc  manifests/final-v1.0.0-publication-audit.json
 1228dc574836b2c55fbe20cfd06df25a0a122638499a795a7966d387288d56fd  pipeline.configuration.yaml
@@ -328,7 +328,7 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  stage-4-valida
 1b4141c536edda884a28078cbfe6ecd1e54af69eeaa7d0e4953189a61c34ae0c  tools/README.md
 27ffb866819af3965c825e419d9bbd1497adb4d519a1e94dc53837a4e305239a  tools/_deterministic.py
 135c9f57e63f13808bfc138736653d7b4c67500b478e3fc4cbb84da5ffa776c2  tools/build-manifest.py
-2e40c624944d773306204ebec00b66966941ea07c481f4669c932069719a8cc7  tools/build-release-manifest.py
+04aa9ff3bb8b2d6171df3da4c4f15e393b2a229a86677a448b523bc4869f4992  tools/build-release-manifest.py
 8aa41a03e7f030cee9e99099e647ad01bafaa2a0519eeba07742af9f10ab68f5  tools/run-all-checks.py
 05d9910189b205ac6d94686eaffa2b88e495c63e4e7876918bd2c4df6a6cd48b  tools/validate-artifact-boundaries.py
 0ec8051f1ce1617d15e9f1cdff0ef3b1627b97ac986e1fb49c435f6dd87e550d  tools/validate-configurations.py
