@@ -35,7 +35,7 @@ for path in sorted(ROOT.rglob('*')):
     files.append({'path': rel_text, 'category': rel.parts[0] if len(rel.parts) > 1 else 'root', 'bytes': path.stat().st_size, 'sha256': digest(path)})
 
 with (MAN / 'public-repository-file-index.csv').open('w', newline='', encoding='utf-8') as f:
-    writer = csv.DictWriter(f, fieldnames=['path', 'category', 'bytes', 'sha256'])
+    writer = csv.DictWriter(f, fieldnames=['path', 'category', 'bytes', 'sha256'], lineterminator='\n')
     writer.writeheader()
     writer.writerows(files)
 

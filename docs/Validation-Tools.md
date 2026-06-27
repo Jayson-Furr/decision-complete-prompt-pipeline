@@ -3,6 +3,7 @@
 Run the complete repository validation suite:
 
 ```bash
+python -m pip install -r requirements.txt
 python tools/run-all-checks.py
 ```
 

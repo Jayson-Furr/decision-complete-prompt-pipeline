@@ -334,6 +334,7 @@ manifests/
   final-v1.0.0-publication-audit.json
 pipeline.configuration.yaml
 repository-metadata.yaml
+requirements.txt
 schemas/
   README.md
   artifact-manifest.schema.md

@@ -13,7 +13,7 @@ path,category,bytes,sha256
 .github/dependabot.yml,.github,119,8912c495e7a2514170ad43170ceda3e1c0a48402c92bd096215c4b6ec6a31a03
 .github/labeler.yml,.github,530,e075381117fb3419632975b153afa3d076b5446f182851b9c241736fa24c6c87
 .github/labels.yaml,.github,330,6d7e5b120f662aba5871d450f942eddecd0fb4ccdb07333c1df15d4d0d25f534
-.github/workflows/validate.yml,.github,738,1b86653b8d7d987e80f9f3cfea466c14442741bb727288e8e13a053b6f0cb9dc
+.github/workflows/validate.yml,.github,835,4f9ab034c05cd409456addd25f56d177fc879cbfea6e23adc409d474353c2e47
 .gitignore,root,293,4b7493fd3acdb7f88d3a4441af9bcf8b1dd30649febcd8c954de316a818d3811
 ADOPTERS.md,root,670,237785275d7e3679566bbb536520bae75bd87d91fb8ec8a866fdc827f23ced55
 CHANGELOG.md,root,3528,f5f3b2f0334d68cd14417c177ceb72de4cb59e428dcd2a29f11da42bef4b1f84
@@ -98,7 +98,7 @@ docs/Troubleshooting.md,docs,2491,06d401294097f17c1c8df054f8f511b26bb0dcafb225dd
 docs/Usage-Guide.md,docs,4585,0b342e71c6f3cb348d977752dfadd229b8463b4827441b458006290f26947fdc
 docs/Validation-Guarantee-Matrix.md,docs,2413,8522946ef6cc38cc395b5036832953c5de9b59b1d8339a838f398327b3dc50b1
 docs/Validation-Scope-and-Guarantees.md,docs,4561,d3119b93c8a434286530fe7915e6556c8eac1d8a199750281d2a4f3488554c3b
-docs/Validation-Tools.md,docs,5061,7e486c4ddc80d69d6469e800ecc45cfc45db58b3b2901103a93a9182be42e059
+docs/Validation-Tools.md,docs,5103,04b7f25a6456cfc2e27da786f19575f27f385b42523c0f4ef3ef6debdf80710f
 docs/Validator-Implementation-Notes.md,docs,1155,514e112f1615a86b94aa763cc68fe46d96a17dcada31e817f227cf9e07f0584f
 docs/Versioning-Policy.md,docs,403,b57f79bc83a3ba453c43e984e489032f0f3860a982b90afdf8735298bb5f2b21
 docs/Web-Application-Profile-Deep-Dive.md,docs,1874,87a51831ca431ab96a46a1cea709c2a361675bc6aca5cfd328cf8d135eedddc6
@@ -108,7 +108,7 @@ examples/minimal-complete-run/todo-web-app/00-source-input/pipeline.configuratio
 examples/minimal-complete-run/todo-web-app/00-source-input/user-input.md,examples,446,ab56daea6a26bce3a881a17f635d80d1e5cea6a2e8cd87e1db903aeb30b035b0
 examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-artifact.example.md,examples,7546,19bf0c638d6190cac1cf9f47e7cfd2d0f7292db1b71663d181fbca1324f59c19
 examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-decision-ledger.example.csv,examples,1295,e6a913d49d0276e5805b666e65d72757efeed0eb441cf0dc5004ee608269c073
-examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv,examples,484,ec4fbd2495ead171b80b161b7e5061c7ae73258158c51fa1ab045b46215dd87f
+examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv,examples,479,3048153bd3120353cd85d95adef89ee37585bb522359adff624a8a96e01ca7a7
 examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-artifact.example.md,examples,5274,883330ec3e6166cfaaa8e27d895f9e372e13ea5dee113017acc408141b35fe80
 examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-decision-ledger.example.csv,examples,852,f09d7d3e85b49f178a3216fb311f76da5b5176c246d6fa71d8e2700fd81c9c94
 examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-traceability-matrix.example.csv,examples,584,0b95c73a1ce4d30aa45b9282309b0f3fa892c8b9c7d6a4693f8182f903a1bffa
@@ -142,7 +142,7 @@ examples/minimal-complete-run/unity-button-click-prototype/00-source-input/pipel
 examples/minimal-complete-run/unity-button-click-prototype/00-source-input/user-input.md,examples,567,8a42c6f0a9c1e50ab70cb73b24567491acd2d84880b24b5a4adde3d3c684f420
 examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-artifact.example.md,examples,4707,ce305d78d3941e47ae9b645226107b4617c23679b647b996ded9c200ec31d463
 examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-decision-ledger.example.csv,examples,1241,c4fb79811afe70893cb30a092c57e4ee97ffe7d09eaf63d837a6e909861b16c5
-examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv,examples,428,3397da58458278d1caea1d177643ad472292e4d8999c6393a5799c38670105bb
+examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv,examples,424,08bb4a4bb4baeb29e6023f37d0f7e088912a2fbc9ad9e93327002e7028542b53
 examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-artifact.example.md,examples,3705,847f6a9b3594e2ce2056e687c2327a85f7ed019f344add694b9ccd91d2803856
 examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-decision-ledger.example.csv,examples,917,5202bb70d33165747e107deacaa83b6d4767ee7ac2ed8e6b71155db9561dce3b
 examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-traceability-matrix.example.csv,examples,487,b7fdd00ed2fd41d0c1c96a0cf0a8814258f67936da1ba4d9c8b9faed32d1aba7
@@ -174,7 +174,7 @@ examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation
 examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-final-artifact-manifest.example.json,examples,630,d9e6a8fdc28716362c0ad21c84c14dedaffce79908387d5126c3f12f0c73c7d6
 examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-final-handoff-packet.example.yaml,examples,1031,08915736fa73cdb022369c819710e30c93362df75d260b0f6031a8226cab0486
 examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-validation-report.example.csv,examples,895,a8d2ad4bc583f1e372b259c4ea0e1746275e4968467a81867363c7be14466139
-examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/validation-report.example.csv,examples,526,c1ce79a19bcf4a977f098c0510d0c35acf97463db0d3c92a3dc1628ba31e49dc
+examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/validation-report.example.csv,examples,523,32381882c81a26867c0c6c54ae4bccd7c20f28099c3174794715e30506431ac6
 examples/minimal-complete-run/unity-button-click-prototype/05-side-by-side-review/decision-ledger-comparison-notes.md,examples,468,207c53823f396148a97cf11c93bbdd3858995e0dc5934d5a6dff1ac5c725683c
 examples/minimal-complete-run/unity-button-click-prototype/05-side-by-side-review/traceability-walkthrough.md,examples,786,12a9d49f856c77d7c511fffe99c776d18e5bb3b911575475ba0c41c3ce8f8a4b
 examples/minimal-complete-run/unity-button-click-prototype/README.md,examples,764,fba9581d4a833e9b678ae8dad5219664ea589c0dbc44f672c9c756c686946427
@@ -262,11 +262,12 @@ manifests/batch-6-summary.json,manifests,595,de115447f3ddd237ed1beb352601ce95d9f
 manifests/batch-7-summary.json,manifests,917,7c9a329222c08bfcee8f5995bf385d03aa41b45b897af6a6f1ce7e28e51e36fb
 manifests/batch-8-summary.json,manifests,832,d8c9b7f6517d026db9ee9414cfcccfe8182da281f0904af069a1b0e1072768eb
 manifests/batch-9-summary.json,manifests,1213,beda5baf463f11b720699b7640761a522e2c36fbc8791a553c4ad2d576c5fd4d
-manifests/final-release-checklist.csv,manifests,896,ecf613c48a8dfab652cfd4c3cff163a9ae1eff17e4901544a4fb03a445b16f46
+manifests/final-release-checklist.csv,manifests,885,37e1f009991e693af29d7f2531e42936c8667ec2c0b674aeae1bdf281f400a23
 manifests/final-release-summary.json,manifests,1592,fc923b0189a00fc345c53f673ba690ed0dbe44fb7db8c189dc607291547f9448
 manifests/final-v1.0.0-publication-audit.json,manifests,933,28b729c11f381229c30383a796ee871a7af02898676205033bd0866fb097c3cc
 pipeline.configuration.yaml,root,4130,1228dc574836b2c55fbe20cfd06df25a0a122638499a795a7966d387288d56fd
 repository-metadata.yaml,root,3307,fc86207ddbad61e2f9034af0a4328d7f18c11c013fb449ae1855457d0a72ed32
+requirements.txt,root,17,195d92b82f91999cc32a0a29cf4f1969d11a2d4dac95317dd6cad57b61e1add0
 schemas/README.md,schemas,437,c041ee733d63c831fcb2c45b4a764d4d43bc70559daa4a80e0ba0e67ba9a8bbc
 schemas/artifact-manifest.schema.md,schemas,353,b680cbf645232e295ec50b76e672d110efcaad83c0d069f38316ee89cdf23e1d
 schemas/decision-ledger.schema.md,schemas,454,5f72af04989ece2af1cc9c577be31915d311dd064992f35fb1ef175e438bf879
@@ -325,10 +326,10 @@ stage-4-validation-packaging/prompts/Stage-4-Prompt-1-No-Questions-Full-AI-Valid
 stage-4-validation-packaging/prompts/Stage-4-Prompt-2-Low-Stakes-Finalization-Interview.md,stage-4-validation-packaging,32806,1736b08fc592b05c086f3f2141cab94bfd85f186617c88067ef445a8c614844d
 stage-4-validation-packaging/prompts/Stage-4-Prompt-3-Medium-Stakes-Finalization-Interview.md,stage-4-validation-packaging,32950,54e35581ab8b4d1a4a6295f9224f7ec5e6e1e3c20aaa3b284de5c6eb803bbe90
 stage-4-validation-packaging/prompts/Stage-4-Prompt-4-High-Stakes-Finalization-Interview.md,stage-4-validation-packaging,33084,1cb00a284ebeed264f652817986cf6ebd9e859f6cbc60c33d78eab196fb82287
-tools/README.md,tools,2760,f23862bd3407cccea2f15cb8d9d7bf3d2bbd8eb57096e299bcdc3ff3fc0dbca1
+tools/README.md,tools,2802,1b4141c536edda884a28078cbfe6ecd1e54af69eeaa7d0e4953189a61c34ae0c
 tools/_deterministic.py,tools,417,27ffb866819af3965c825e419d9bbd1497adb4d519a1e94dc53837a4e305239a
 tools/build-manifest.py,tools,2177,135c9f57e63f13808bfc138736653d7b4c67500b478e3fc4cbb84da5ffa776c2
-tools/build-release-manifest.py,tools,3350,2e40c624944d773306204ebec00b66966941ea07c481f4669c932069719a8cc7
+tools/build-release-manifest.py,tools,3371,04aa9ff3bb8b2d6171df3da4c4f15e393b2a229a86677a448b523bc4869f4992
 tools/run-all-checks.py,tools,3426,8aa41a03e7f030cee9e99099e647ad01bafaa2a0519eeba07742af9f10ab68f5
 tools/validate-artifact-boundaries.py,tools,5407,05d9910189b205ac6d94686eaffa2b88e495c63e4e7876918bd2c4df6a6cd48b
 tools/validate-configurations.py,tools,5504,0ec8051f1ce1617d15e9f1cdff0ef3b1627b97ac986e1fb49c435f6dd87e550d

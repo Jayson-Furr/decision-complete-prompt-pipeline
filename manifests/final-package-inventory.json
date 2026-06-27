@@ -9,7 +9,7 @@
     "manifests/validation-report.json",
     "package-manifest.generated.json"
   ],
-  "file_count": 348,
+  "file_count": 349,
   "files": [
     {
       "path": ".editorconfig",
@@ -83,8 +83,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "1b86653b8d7d987e80f9f3cfea466c14442741bb727288e8e13a053b6f0cb9dc",
-      "size_bytes": 738
+      "sha256": "4f9ab034c05cd409456addd25f56d177fc879cbfea6e23adc409d474353c2e47",
+      "size_bytes": 835
     },
     {
       "path": ".gitignore",
@@ -508,8 +508,8 @@
     },
     {
       "path": "docs/Validation-Tools.md",
-      "sha256": "7e486c4ddc80d69d6469e800ecc45cfc45db58b3b2901103a93a9182be42e059",
-      "size_bytes": 5061
+      "sha256": "04b7f25a6456cfc2e27da786f19575f27f385b42523c0f4ef3ef6debdf80710f",
+      "size_bytes": 5103
     },
     {
       "path": "docs/Validator-Implementation-Notes.md",
@@ -558,8 +558,8 @@
     },
     {
       "path": "examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv",
-      "sha256": "ec4fbd2495ead171b80b161b7e5061c7ae73258158c51fa1ab045b46215dd87f",
-      "size_bytes": 484
+      "sha256": "3048153bd3120353cd85d95adef89ee37585bb522359adff624a8a96e01ca7a7",
+      "size_bytes": 479
     },
     {
       "path": "examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-artifact.example.md",
@@ -728,8 +728,8 @@
     },
     {
       "path": "examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv",
-      "sha256": "3397da58458278d1caea1d177643ad472292e4d8999c6393a5799c38670105bb",
-      "size_bytes": 428
+      "sha256": "08bb4a4bb4baeb29e6023f37d0f7e088912a2fbc9ad9e93327002e7028542b53",
+      "size_bytes": 424
     },
     {
       "path": "examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-artifact.example.md",
@@ -888,8 +888,8 @@
     },
     {
       "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/validation-report.example.csv",
-      "sha256": "c1ce79a19bcf4a977f098c0510d0c35acf97463db0d3c92a3dc1628ba31e49dc",
-      "size_bytes": 526
+      "sha256": "32381882c81a26867c0c6c54ae4bccd7c20f28099c3174794715e30506431ac6",
+      "size_bytes": 523
     },
     {
       "path": "examples/minimal-complete-run/unity-button-click-prototype/05-side-by-side-review/decision-ledger-comparison-notes.md",
@@ -1328,8 +1328,8 @@
     },
     {
       "path": "manifests/final-release-checklist.csv",
-      "sha256": "ecf613c48a8dfab652cfd4c3cff163a9ae1eff17e4901544a4fb03a445b16f46",
-      "size_bytes": 896
+      "sha256": "37e1f009991e693af29d7f2531e42936c8667ec2c0b674aeae1bdf281f400a23",
+      "size_bytes": 885
     },
     {
       "path": "manifests/final-release-summary.json",
@@ -1350,6 +1350,11 @@
       "path": "repository-metadata.yaml",
       "sha256": "fc86207ddbad61e2f9034af0a4328d7f18c11c013fb449ae1855457d0a72ed32",
       "size_bytes": 3307
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "195d92b82f91999cc32a0a29cf4f1969d11a2d4dac95317dd6cad57b61e1add0",
+      "size_bytes": 17
     },
     {
       "path": "schemas/README.md",
@@ -1643,8 +1648,8 @@
     },
     {
       "path": "tools/README.md",
-      "sha256": "f23862bd3407cccea2f15cb8d9d7bf3d2bbd8eb57096e299bcdc3ff3fc0dbca1",
-      "size_bytes": 2760
+      "sha256": "1b4141c536edda884a28078cbfe6ecd1e54af69eeaa7d0e4953189a61c34ae0c",
+      "size_bytes": 2802
     },
     {
       "path": "tools/_deterministic.py",
@@ -1658,8 +1663,8 @@
     },
     {
       "path": "tools/build-release-manifest.py",
-      "sha256": "2e40c624944d773306204ebec00b66966941ea07c481f4669c932069719a8cc7",
-      "size_bytes": 3350
+      "sha256": "04aa9ff3bb8b2d6171df3da4c4f15e393b2a229a86677a448b523bc4869f4992",
+      "size_bytes": 3371
     },
     {
       "path": "tools/run-all-checks.py",

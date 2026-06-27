@@ -7,6 +7,7 @@ The tools are intentionally standard-library-only except for optional YAML parsi
 ## Run all checks
 
 ```bash
+python -m pip install -r requirements.txt
 python tools/run-all-checks.py
 ```
 
