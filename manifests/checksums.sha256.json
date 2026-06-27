@@ -59,7 +59,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "1b86653b8d7d987e80f9f3cfea466c14442741bb727288e8e13a053b6f0cb9dc"
+      "sha256": "4f9ab034c05cd409456addd25f56d177fc879cbfea6e23adc409d474353c2e47"
     },
     {
       "path": ".gitignore",
@@ -399,7 +399,7 @@
     },
     {
       "path": "docs/Validation-Tools.md",
-      "sha256": "7e486c4ddc80d69d6469e800ecc45cfc45db58b3b2901103a93a9182be42e059"
+      "sha256": "04b7f25a6456cfc2e27da786f19575f27f385b42523c0f4ef3ef6debdf80710f"
     },
     {
       "path": "docs/Validator-Implementation-Notes.md",
@@ -1074,6 +1074,10 @@
       "sha256": "fc86207ddbad61e2f9034af0a4328d7f18c11c013fb449ae1855457d0a72ed32"
     },
     {
+      "path": "requirements.txt",
+      "sha256": "195d92b82f91999cc32a0a29cf4f1969d11a2d4dac95317dd6cad57b61e1add0"
+    },
+    {
       "path": "schemas/README.md",
       "sha256": "c041ee733d63c831fcb2c45b4a764d4d43bc70559daa4a80e0ba0e67ba9a8bbc"
     },
@@ -1307,7 +1311,7 @@
     },
     {
       "path": "tools/README.md",
-      "sha256": "f23862bd3407cccea2f15cb8d9d7bf3d2bbd8eb57096e299bcdc3ff3fc0dbca1"
+      "sha256": "1b4141c536edda884a28078cbfe6ecd1e54af69eeaa7d0e4953189a61c34ae0c"
     },
     {
       "path": "tools/_deterministic.py",
