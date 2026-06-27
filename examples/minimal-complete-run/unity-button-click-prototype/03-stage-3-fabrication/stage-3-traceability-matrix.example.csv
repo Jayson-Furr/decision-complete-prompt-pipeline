@@ -1,0 +1,5 @@
+Stage 1 Entity ID,Stage 2 Work Package ID,Stage 3 Fabrication Result ID,Artifact IDs,Validation IDs,Status,Notes
+S1-FEAT-001,S2-WP-001,S3-FR-001,"S3-ART-001; S3-ART-002",S3-VAL-001,Partially Fabricated,Text files created; Unity compile not run.
+S1-SCR-001,S2-WP-002,S3-FR-002,"S3-ART-003; S3-ART-004",S3-VAL-002,Partially Fabricated,UI files created; Unity import not run.
+S1-SCR-001,S2-WP-003,S3-FR-003,S3-EXT-001,S3-VAL-004,External-Tool-Required,Actual scene requires Unity Editor.
+S1-REQ-003,S2-WP-004,S3-FR-004,S3-ART-006,S3-VAL-004,Fabricated,No-release validation checklist included.

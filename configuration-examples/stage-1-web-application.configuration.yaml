@@ -1,0 +1,534 @@
+configuration_metadata:
+  config_name: stage-1-web-application
+  config_version: 1.0.0
+  pipeline_name: DecisionComplete Prompt Pipeline
+  repository_name: decision-complete-prompt-pipeline
+  applies_to_stage: stage_1
+  stage_name: 100% Decision-Complete Digital Product Design Specification Suite
+  configuration_scope: product_type_specific
+  description: Stage 1 web application design profile.
+  human_readable_first: true
+  extends: stage-1-default.configuration.yaml
+  product_type_profile: web_application
+  profile_depth_status: deepened_v1_0_0_batch_12
+prompt_mode:
+  selected_mode: medium_stakes_design_interview
+  fallback_mode_if_unspecified: medium_stakes_design_interview
+  allowed_modes:
+  - no_questions_full_ai_design_fabrication
+  - low_stakes_design_interview
+  - medium_stakes_design_interview
+  - high_stakes_design_interview
+stage_authority:
+  stage_1_controls_design: true
+  stage_2_controls_execution_plan: true
+  stage_3_controls_fabricated_artifact_record: true
+  stage_4_controls_validation_repair_packaging_and_handoff: true
+  preserve_prior_stage_authority: true
+  configuration_controls_process_not_locked_upstream_authority: true
+configuration_priority:
+  priority_order:
+  - Safety, integrity, non-deception, and no-unauthorized-side-effect rules
+  - Stage 1 prompt required operating rules
+  - User latest direct instruction
+  - stage-1-default.configuration.yaml
+  - pipeline.configuration.yaml
+  - Prior-stage artifact according to authority scope
+  - Other user-provided context
+  - AI defaults
+  active_prompt_file_controls_mode_unless_user_explicitly_switches: true
+  stage_configuration_overrides_pipeline_configuration: true
+  pipeline_configuration_supplies_global_defaults: true
+output_suite:
+  artifact_target: 100% Decision-Complete Digital Product Design Specification Suite
+  human_readable_first: true
+  tree_structured: true
+  internally_linked: true
+  include_root_index: true
+  include_document_manifest_and_tree_map: true
+  include_universal_document_headers: true
+  include_parent_child_links: true
+  include_related_document_links: true
+  include_source_authority: true
+  include_completion_gate: true
+  include_machine_readable_companion_data: true
+  preserve_artifact_boundary_markers: true
+artifact_boundary_markers:
+  begin_marker: '<<<BEGIN STAGE 1 ARTIFACT: 100% DECISION-COMPLETE DIGITAL PRODUCT DESIGN SPECIFICATION SUITE>>>'
+  end_marker: <<<END STAGE 1 ARTIFACT>>>
+required_document_tree:
+  root_document: 00-Suite-Index
+  top_level_documents:
+  - 00-Suite-Index
+  - 01-Source-Context-Inventory
+  - 02-Product-Type-Scope-and-Applicability-Classification
+  - 03-Executive-Design-Brief
+  - 04-Design-Specification-Manifest-and-Tree-Map
+  - 05-Canonical-Product-Design-Specification
+  - 06-Asset-Specification-Library
+  - 07-Requirements-and-Acceptance-Criteria
+  - 08-Feature-Requirement-Asset-Traceability-Matrix
+  - 09-Canonical-Design-Decision-State-Register
+  - 10-Standardized-Design-Decision-Ledger
+  - 11-Below-Threshold-Decision-Summary
+  - 12-Assumptions-and-Inferences-Register
+  - 13-Placeholder-Token-Registry
+  - 14-Conflict-Resolution-Log
+  - 15-Source-Provenance-and-Rights-Review-Register
+  - 16-High-Stakes-Review-Flags
+  - 17-Design-Feasibility-and-Constraint-Review
+  - 18-Hidden-Design-Decision-Scan
+  - 19-Stage-2-Handoff-Contract
+  - 20-Machine-Readable-Companion-Data
+  - 21-Completion-Gate
+document_headers:
+  required: true
+  require_document_id: true
+  require_document_title: true
+  require_document_type: true
+  require_stage: true
+  require_parent_document: true
+  require_child_documents: true
+  require_related_documents: true
+  require_source_authority: true
+  require_status: true
+  require_human_readable_field: true
+  require_machine_readable_companion_field: true
+  require_downstream_use_field: true
+decision_logging:
+  threshold_matches_interview_threshold: true
+  always_log_high_stakes_decisions: true
+  include_below_threshold_summary_when_applicable: true
+  use_standardized_decision_ledger_schema: true
+  use_canonical_decision_state_register: true
+  line_item_log_elevated_decisions: true
+  include_options_considered: true
+  include_selected_option: true
+  include_selection_reason: true
+  include_decision_source: true
+  include_assumption_used_field: true
+  include_placeholder_used_field: true
+  include_review_requirement_field: true
+  include_comparison_notes: true
+traceability:
+  require_cross_stage_traceability: true
+  require_stable_ids: true
+  require_source_authority_for_major_items: true
+  require_stage_1_to_stage_2_links: true
+  require_stage_2_to_stage_3_links: true
+  require_stage_3_to_stage_4_links: true
+  require_final_traceability_matrix: true
+  trace_placeholders_across_stages: true
+  trace_review_gated_items_across_stages: true
+  trace_blocked_items_across_stages: true
+  trace_external_tool_required_items: true
+  trace_external_validation_required_items: true
+safety_and_integrity:
+  do_not_fabricate_verified_facts: true
+  do_not_fabricate_official_records: true
+  do_not_fabricate_signatures_or_approvals: true
+  do_not_fabricate_licenses_or_certifications: true
+  do_not_assume_ownership_or_rights_from_attachments: true
+  do_not_claim_compliance_without_evidence_and_review: true
+  preserve_placeholders: true
+  preserve_review_gated_items: true
+  no_public_release_without_explicit_authorization: true
+  no_production_deployment_without_explicit_authorization: true
+  no_app_store_submission_without_explicit_authorization: true
+  no_credentials_or_private_data_use_without_explicit_authorization: true
+  no_destructive_operations_without_explicit_authorization: true
+  no_external_api_execution_without_explicit_authorization: true
+placeholder_policy:
+  use_controlled_placeholder_tokens: true
+  prohibit_vague_tbd: true
+  register_every_placeholder: true
+  preserve_placeholders_across_stages: true
+  replace_only_with_user_supplied_values: true
+  include_replacement_instruction: true
+  include_downstream_handling_instruction: true
+review_gated_policy:
+  preserve_review_gated_items_across_stages: true
+  register_review_gated_items: true
+  identify_required_reviewer_type: true
+  prohibit_auto_resolution_without_authorization: true
+  block_release_when_high_stakes_review_is_unresolved: true
+machine_readable_companions:
+  enabled: true
+  human_readable_documents_remain_canonical: true
+  include_normalized_active_configuration: true
+  include_handoff_packet: true
+  required_files:
+  - normalized_active_stage_1_configuration.yaml
+  - stage_1_to_stage_2_handoff_packet.yaml
+  - suite_manifest.json
+  - design_decision_state_register.json
+  - asset_registry.json
+  - traceability_matrix.csv
+  - link_graph.json
+  include_profile_depth_contract: true
+completion_gate:
+  required: true
+  require_configuration_processed_or_defaulted: true
+  require_normalized_active_configuration_included: true
+  require_completion_gate_result_matches_artifact_status: true
+  require_machine_readable_companion_data_matches_human_readable_suite: true
+status:
+  configuration_complete: true
+  safe_to_use_as_stage_1_web_application_profile: true
+input_handling:
+  accept_minimal_input: true
+  accept_typed_context_before_prompt: true
+  accept_markdown_attachments: true
+  accept_document_attachments: true
+  accept_image_attachments: true
+  accept_configuration_files: true
+  image_handling:
+    use_images_as_visual_reference: true
+    extract_observable_details_only: true
+    do_not_infer_identity_ownership_license_or_authorization: true
+product_defaults:
+  product_type: web_application
+  product_name: '[S1-PH-001: PRODUCT_NAME]'
+  release_tier: MVP
+  allowed_product_types:
+  - unity_game
+  - unreal_game
+  - godot_game
+  - game_prototype
+  - shared_library
+  - sdk
+  - desktop_application
+  - desktop_service
+  - mobile_application
+  - mobile_service
+  - website
+  - web_application
+  - web_service
+  - web_platform
+  - web_solution
+  - hybrid_software_system
+  - multi_component_digital_product
+  - auto_detect
+  - unknown
+  allowed_release_tiers:
+  - Prototype
+  - Vertical Slice
+  - MVP
+  - Version 1.0
+  - Full Product Concept
+  - Future Expansion
+  scope_boundary_required: true
+design_surface_coverage:
+  require_comprehensive_surface_scan: true
+  explicitly_mark_not_applicable_surfaces: true
+  required_surfaces:
+  - Visual Look and Feel
+  - Screens / Views / Pages
+  - Controls and Inputs
+  - Animations and Transitions
+  - Colors and Typography
+  - Sounds and Music
+  - Video / Cinematics / Media
+  - Workflows and User Flows
+  - User Stories
+  - Data / Information Architecture
+  - API / Service Interfaces
+  - Operational Behavior
+  - Accessibility
+  - Localization
+  - Security and Privacy
+  - Performance
+  - Error Recovery
+  - Configuration
+  - Deployment Assumptions
+  - Documentation
+  - Developer Experience
+  - Testing and QA
+asset_specification:
+  require_asset_enumeration_boundary: true
+  require_asset_registry: true
+  require_asset_family_defaults: true
+  require_asset_design_specification_packets: true
+  require_positive_design_prompt: true
+  require_negative_design_prompt: true
+  downstream_creator_must_not_make_design_decisions: true
+  allowed_asset_design_statuses:
+  - Design-Complete
+  - Placeholder-Complete
+  - Review-Gated
+  - Excluded
+  - Not Applicable
+source_provenance_and_rights:
+  required: true
+  do_not_assume_ownership_or_licensing_from_attachments: true
+  treat_images_as_visual_references_unless_rights_confirmed: true
+  default_rights_status: User-Provided; Ownership Not Verified
+hidden_design_decision_scan:
+  required: true
+  standard: No downstream creator should need to make a design decision.
+  required_areas:
+  - Product type
+  - Scope
+  - Release tier
+  - Audience
+  - Feature scope
+  - Requirements
+  - Acceptance criteria
+  - Screens / views / pages
+  - Controls and inputs
+  - Visual design
+  - Audio
+  - Video / media
+  - Workflows
+  - User stories
+  - Data model
+  - APIs / interfaces
+  - Technical architecture
+  - Assets
+  - Positive asset prompts
+  - Negative asset prompts
+  - Placeholders
+  - Review-gated items
+  - Rights and source provenance
+  - Stage 2 handoff
+  additional_web_application_areas:
+  - Frontend framework
+  - Routing strategy
+  - State management
+  - Form validation
+  - API style
+  - Backend requirement
+  - Database requirement
+  - Authentication
+  - Authorization
+  - Personal data
+  - Secrets handling
+  - Deployment target
+  - Responsive breakpoints
+  - Accessibility behavior
+  - SEO requirements
+  - Error and empty states
+product_profile:
+  product_type: web_application
+  profile_file: stage-1-web-application.configuration.yaml
+  inherits_from_default_stage_configuration: true
+web_application_profile:
+  product_type: web_application
+  typical_components:
+  - frontend
+  - backend_api
+  - database
+  - authentication
+  - authorization
+  - admin UI
+  - deployment configuration
+  - observability
+  recommended_default_stack_if_user_approves:
+    frontend: React + TypeScript
+    backend: Node.js service
+    database: PostgreSQL
+    styling: CSS Modules or design-system CSS
+web_high_stakes_review:
+  authentication: High
+  authorization: High
+  personal_data: High
+  payments: High
+  production_deployment: High
+  external_apis: High
+  security_headers: High
+web_design_surface_coverage:
+  require_route_inventory: true
+  require_page_and_component_inventory: true
+  require_user_flow_inventory: true
+  require_data_model: true
+  require_api_surface: true
+  require_accessibility: true
+  require_security_and_privacy: true
+  require_error_states: true
+web_security_privacy:
+  authentication_decision_required: true
+  authorization_boundary_decision_required: true
+  personal_data_inventory_required: true
+  cookie_session_storage_decision_required: true
+  privacy_review_required_for_user_data: true
+web_application_profile_depth:
+  profile_depth_level: deepened-v1.0.0
+  stage_1_focus: Design-complete web application specification
+  required_design_domains:
+  - frontend framework and rendering model
+  - routing and navigation
+  - state management
+  - forms and validation
+  - responsive layout
+  - accessibility
+  - data model
+  - API contract
+  - backend requirement classification
+  - database requirement classification
+  - authentication and authorization review
+  - privacy and personal data handling
+  - environment variables and secrets handling
+  - deployment assumptions
+  - testing and QA
+web_frontend_design:
+  frontend_framework: '[S1-PH-WEB-001: FRONTEND_FRAMEWORK]'
+  rendering_model: '[S1-PH-WEB-002: RENDERING_MODEL]'
+  routing_strategy: '[S1-PH-WEB-003: ROUTING_STRATEGY]'
+  state_management: '[S1-PH-WEB-004: STATE_MANAGEMENT]'
+  styling_strategy: '[S1-PH-WEB-005: STYLING_STRATEGY]'
+  form_strategy: '[S1-PH-WEB-006: FORM_STRATEGY]'
+  validation_strategy: '[S1-PH-WEB-007: VALIDATION_STRATEGY]'
+  responsive_breakpoints_required: true
+  accessibility_requirements_required: true
+  browser_support_matrix_required: true
+  client_error_state_specification_required: true
+  offline_or_loading_state_decision_required: true
+web_backend_and_data_design:
+  backend_required: '[S1-PH-WEB-008: BACKEND_REQUIRED]'
+  api_style: '[S1-PH-WEB-009: API_STYLE]'
+  database_required: '[S1-PH-WEB-010: DATABASE_REQUIRED]'
+  persistence_model: '[S1-PH-WEB-011: PERSISTENCE_MODEL]'
+  data_model_required: true
+  api_contract_required_when_backend_or_external_api_exists: true
+  error_contract_required: true
+  mock_data_strategy_required: true
+web_security_privacy_design:
+  authentication: Review-Gated if user accounts are required
+  authorization: Review-Gated if roles or permissions are required
+  personal_data: Privacy Review Required if collected
+  cookies_or_local_storage: Privacy Review Required when used for personal or tracking data
+  secrets: Use placeholders only; never embed credentials
+  third_party_apis: Review-Gated until source authority and authorization are clear
+  payments: High-Stakes / Professional Review Required
+  analytics: Privacy Review Required
+  deployment: External Authorization Required
+web_stage_2_handoff_hints:
+  suggested_work_package_families:
+  - frontend scaffold
+  - routing and layout
+  - component library
+  - forms and validation
+  - state management
+  - API client
+  - backend service
+  - database schema
+  - authentication / authorization review
+  - accessibility QA
+  - build and deployment preparation
+profile_depth_contract:
+  profile_family: web_application
+  profile_maturity: balanced_with_unity_profile
+  stage_specific_depth_added: true
+  product_specific_validation_added: true
+  safety_review_domains_explicit: true
+  external_validation_domains_explicit: true
+web_application_design_profile:
+  frontend_decisions_required:
+  - frontend framework
+  - routing strategy
+  - state management
+  - styling strategy
+  - component model
+  - form validation
+  - responsive layout
+  backend_decisions_required:
+  - backend required?
+  - API style
+  - database required?
+  - server runtime
+  - deployment boundary
+  data_and_api_design:
+  - client state
+  - server state
+  - API contracts
+  - error responses
+  - loading states
+  - empty states
+  - offline behavior if applicable
+  security_privacy_high_stakes:
+  - authentication
+  - authorization
+  - personal data
+  - cookies
+  - local storage
+  - session storage
+  - tokens
+  - payments
+  - analytics
+  - third-party scripts
+  accessibility_requirements:
+  - keyboard navigation
+  - focus order
+  - semantic landmarks
+  - color contrast
+  - form labels
+  - error messaging
+  - reduced motion
+  deployment_assumptions:
+  - static hosting
+  - server hosting
+  - environment variables
+  - secrets
+  - domain name
+  - TLS
+  - CDN
+  - production release authorization
+  profile_depth: deepened_v1_0_0_batch_12
+  frontend_decisions:
+    framework: '[S1-PH-WEB-001: FRONTEND_FRAMEWORK]'
+    recommended_defaults:
+    - React
+    - TypeScript
+    - Vite
+    routing_strategy: '[S1-PH-WEB-002: ROUTING_STRATEGY]'
+    state_management: '[S1-PH-WEB-003: STATE_MANAGEMENT]'
+    styling_strategy: '[S1-PH-WEB-004: STYLING_STRATEGY]'
+    component_model: '[S1-PH-WEB-005: COMPONENT_MODEL]'
+    responsive_breakpoints_required: true
+    design_tokens_required: true
+  backend_and_api_decisions:
+    backend_required: '[S1-PH-WEB-006: BACKEND_REQUIRED]'
+    api_style: '[S1-PH-WEB-007: API_STYLE]'
+    database_required: '[S1-PH-WEB-008: DATABASE_REQUIRED]'
+    server_rendering_required: '[S1-PH-WEB-009: SERVER_RENDERING_REQUIRED]'
+    external_api_usage: Review-Gated unless explicitly specified and authorized
+  data_and_persistence:
+    client_state_only: Allowed when product scope supports local-only behavior
+    local_storage: Medium-stakes; document retention and deletion behavior
+    database: Medium or High depending on personal data and production use
+    personal_data: High-stakes; Privacy Review Required
+    secrets: Use placeholders only; never embed credentials
+  security_privacy_and_release:
+    authentication: Review-Gated if user accounts are required
+    authorization: Review-Gated if roles or permissions are required
+    payments: High-stakes; Professional Review Required
+    analytics: Privacy Review Required
+    deployment: External Authorization Required
+    public_release: External Authorization Required
+  accessibility_and_usability:
+    keyboard_navigation_required: true
+    semantic_html_required: true
+    color_contrast_required: true
+    focus_states_required: true
+    error_message_accessibility_required: true
+    reduced_motion_considered: true
+  stage_2_handoff_hints:
+    suggested_decomposition:
+    - frontend shell
+    - routes
+    - components
+    - state
+    - forms
+    - API client
+    - data model
+    - tests
+    - docs
+    expected_artifact_families:
+    - TypeScript source
+    - CSS/styling
+    - tests
+    - schemas
+    - README
+    - deployment notes
+  personal_data: Privacy Review Required when collected
+  external validation: External validation required for runtime/build/deployment checks unless evidence is supplied

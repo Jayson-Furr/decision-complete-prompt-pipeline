@@ -1,0 +1,25 @@
+configuration_metadata:
+  config_name: "shared-library-example-override"
+  config_version: "1.0.0"
+  pipeline_name: "DecisionComplete Prompt Pipeline"
+  example_product_name: "ConfigWeave"
+  example_product_type: "Shared library / SDK"
+
+default_prompt_modes:
+  stage_1: "medium_stakes_design_interview"
+  stage_2: "medium_stakes_execution_interview"
+  stage_3: "medium_stakes_fabrication_interview"
+  stage_4: "medium_stakes_finalization_interview"
+
+example_usage:
+  use_as_project_specific_override: true
+  preserve_repository_configuration_examples: true
+  copy_or_reference_stage_specific_profile: "configuration-examples/stage-1-shared-library.configuration.yaml"
+
+safety_and_integrity:
+  preserve_placeholders: true
+  preserve_review_gated_items: true
+  no_public_release_without_explicit_authorization: true
+  no_production_deployment_without_explicit_authorization: true
+  no_credentials_or_private_data_use_without_explicit_authorization: true
+  no_destructive_operations_without_explicit_authorization: true

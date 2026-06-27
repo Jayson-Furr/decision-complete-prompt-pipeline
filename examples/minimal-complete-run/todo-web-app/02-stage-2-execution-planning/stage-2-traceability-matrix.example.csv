@@ -1,0 +1,5 @@
+Stage 1 Entity ID,Stage 1 Entity Type,Stage 1 Entity Name,Stage 2 Work Package IDs,Stage 3 Prompt IDs,File / Artifact IDs,QA Package IDs,Traceability Status
+S1-FEAT-001,Feature,Add Todo,S2-WP-002,S2-P3-002,"S2-ARTEXP-003; S2-ARTEXP-004; S2-ARTEXP-005",S2-QA-001,Mapped
+S1-FEAT-002,Feature,Toggle Todo Completion,S2-WP-002,S2-P3-002,S2-ARTEXP-003,S2-QA-002,Mapped
+S1-FEAT-003,Feature,Delete Todo,S2-WP-002,S2-P3-002,S2-ARTEXP-003,S2-QA-003,Mapped
+S1-REQ-005,Requirement,No backend or deployment,S2-WP-001; S2-WP-003,S2-P3-001; S2-P3-003,"S2-ARTEXP-001; S2-ARTEXP-007",S2-QA-004,Mapped

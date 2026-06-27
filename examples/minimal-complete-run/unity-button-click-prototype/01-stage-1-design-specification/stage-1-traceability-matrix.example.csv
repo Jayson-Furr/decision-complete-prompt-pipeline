@@ -1,0 +1,4 @@
+Stage 1 Entity ID,Stage 1 Entity Name,Requirement IDs,Acceptance Criteria IDs,Screen IDs,Asset IDs,Notes
+S1-FEAT-001,Click Counter,S1-REQ-001,S1-AC-001,S1-SCR-001,S1-AST-001; S1-AST-002,Counter behavior traced.
+S1-FEAT-002,Counter Display,S1-REQ-002,S1-AC-002,S1-SCR-001,S1-AST-001; S1-AST-002,Display behavior traced.
+S1-DEC-003,No Release,S1-REQ-003,S1-AC-003,Not Applicable,Not Applicable,No deployment or live services.

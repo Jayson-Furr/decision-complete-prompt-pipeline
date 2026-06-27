@@ -1,0 +1,126 @@
+{
+  "does_not_validate": [
+    "downstream generated artifact correctness",
+    "legal approval",
+    "rights clearance",
+    "privacy compliance",
+    "security certification",
+    "compliance approval",
+    "production readiness",
+    "deployment success",
+    "public release success",
+    "app store approval"
+  ],
+  "package": {
+    "name": "DecisionComplete Prompt Pipeline",
+    "repository": "decision-complete-prompt-pipeline",
+    "repository_full_name": "Jayson-Furr/decision-complete-prompt-pipeline",
+    "version": "1.0.0"
+  },
+  "results": [
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-package-structure.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-prompt-files.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-artifact-boundaries.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-configurations.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-controlled-vocabularies.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-schemas.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-examples.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-decision-ledgers.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-machine-readable-companions.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-semantic-consistency.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-profile-depth.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-markdown-links.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-github-readiness.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-publication-polish.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-validation-scope.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-final-publication-recut.py"
+    },
+    {
+      "returncode": 0,
+      "status": "passed",
+      "tool": "validate-release-readiness.py"
+    }
+  ],
+  "semantic_validation_depth": "limited",
+  "status": "passed",
+  "validation_scope": {
+    "description": "Checks repository structure, required files, prompt/config/example consistency, public metadata, and release-readiness hygiene.",
+    "does_not_validate": [
+      "downstream generated artifact correctness",
+      "legal approval",
+      "rights clearance",
+      "privacy compliance",
+      "security certification",
+      "compliance approval",
+      "production readiness",
+      "deployment success",
+      "public release success",
+      "app store approval"
+    ],
+    "scope_type": "repository_structure_and_consistency",
+    "semantic_validation_depth": "limited"
+  }
+}

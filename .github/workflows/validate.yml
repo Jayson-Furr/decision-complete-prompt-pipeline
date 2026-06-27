@@ -1,0 +1,30 @@
+name: Validate Repository Package
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  validate:
+    env:
+      DP_PIPELINE_GENERATED_AT_UTC: "2026-06-27T00:00:00+00:00"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run repository checks
+        run: python tools/run-all-checks.py
+      - name: Rebuild manifests
+        run: |
+          python tools/build-manifest.py
+          python tools/build-release-manifest.py
+      - name: Verify generated files are current
+        run: git diff --exit-code

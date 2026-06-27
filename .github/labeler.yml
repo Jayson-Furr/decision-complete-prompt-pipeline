@@ -1,0 +1,24 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "docs/**"
+prompts:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "stage-*/prompts/**"
+configuration:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "configuration-examples/**"
+schemas:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "schemas/**"
+examples:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "examples/**"
+tooling:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "tools/**"

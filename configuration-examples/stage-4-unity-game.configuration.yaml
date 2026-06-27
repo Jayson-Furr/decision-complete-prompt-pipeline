@@ -1,0 +1,344 @@
+configuration_metadata:
+  config_name: stage-4-unity-game
+  config_version: 1.0.0
+  pipeline_name: DecisionComplete Prompt Pipeline
+  repository_name: decision-complete-prompt-pipeline
+  applies_to_stage: stage_4
+  stage_name: 100% Validation-Complete Final Handoff Package Suite
+  configuration_scope: product_type_specific
+  description: Stage 4 Unity game validation, packaging, and final handoff profile.
+  human_readable_first: true
+  extends: stage-4-default.configuration.yaml
+  product_type_profile: unity_game
+prompt_mode:
+  selected_mode: medium_stakes_finalization_interview
+  fallback_mode_if_unspecified: medium_stakes_finalization_interview
+  allowed_modes:
+  - no_questions_full_ai_validation_packaging
+  - low_stakes_finalization_interview
+  - medium_stakes_finalization_interview
+  - high_stakes_finalization_interview
+stage_authority:
+  stage_1_controls_design: true
+  stage_2_controls_execution_plan: true
+  stage_3_controls_fabricated_artifact_record: true
+  stage_4_controls_validation_repair_packaging_and_handoff: true
+  preserve_prior_stage_authority: true
+  configuration_controls_process_not_locked_upstream_authority: true
+configuration_priority:
+  priority_order:
+  - Safety, integrity, non-deception, and no-unauthorized-side-effect rules
+  - Stage 4 prompt required operating rules
+  - User latest direct instruction
+  - stage-4-default.configuration.yaml
+  - pipeline.configuration.yaml
+  - Prior-stage artifact according to authority scope
+  - Other user-provided context
+  - AI defaults
+  active_prompt_file_controls_mode_unless_user_explicitly_switches: true
+  stage_configuration_overrides_pipeline_configuration: true
+  pipeline_configuration_supplies_global_defaults: true
+output_suite:
+  artifact_target: 100% Validation-Complete Final Handoff Package Suite
+  human_readable_first: true
+  tree_structured: true
+  internally_linked: true
+  include_root_index: true
+  include_document_manifest_and_tree_map: true
+  include_universal_document_headers: true
+  include_parent_child_links: true
+  include_related_document_links: true
+  include_source_authority: true
+  include_completion_gate: true
+  include_machine_readable_companion_data: true
+  preserve_artifact_boundary_markers: true
+artifact_boundary_markers:
+  begin_marker: '<<<BEGIN STAGE 4 ARTIFACT: 100% VALIDATION-COMPLETE FINAL HANDOFF PACKAGE SUITE>>>'
+  end_marker: <<<END STAGE 4 ARTIFACT>>>
+required_document_tree:
+  root_document: 00-Final-Handoff-Package-Index
+  top_level_documents:
+  - 00-Final-Handoff-Package-Index
+  - 01-Stage-3-Artifact-Intake-and-Lock-Summary
+  - 02-Validation-Scope-and-Strategy
+  - 03-Final-Package-Manifest-and-Tree-Map
+  - 04-Artifact-Validation-Results
+  - 05-Repair-Plan-and-Repair-Log
+  - 06-Final-Artifact-Library
+  - 07-Final-File-and-Artifact-Manifest
+  - 08-Final-Traceability-Matrix
+  - 09-Final-QA-Acceptance-and-Rejection-Criteria-Report
+  - 10-Defect-Unresolved-Item-and-Review-Gated-Item-Register
+  - 11-Release-Candidate-or-Handoff-Readiness-Report
+  - 12-Installation-Build-Run-or-Usage-Instructions
+  - 13-Final-Change-and-Repair-History
+  - 14-Canonical-Finalization-Decision-State-Register
+  - 15-Standardized-Finalization-Decision-Ledger
+  - 16-Below-Threshold-Finalization-Decision-Summary
+  - 17-Final-Assumptions-Constraints-and-External-Requirements
+  - 18-User-Approval-and-Release-Authorization-Packet
+  - 19-Machine-Readable-Companion-Data
+  - 20-Hidden-Finalization-Decision-Scan
+  - 21-Completion-Gate
+document_headers:
+  required: true
+  require_document_id: true
+  require_document_title: true
+  require_document_type: true
+  require_stage: true
+  require_parent_document: true
+  require_child_documents: true
+  require_related_documents: true
+  require_source_authority: true
+  require_status: true
+  require_human_readable_field: true
+  require_machine_readable_companion_field: true
+  require_downstream_use_field: true
+decision_logging:
+  threshold_matches_interview_threshold: true
+  always_log_high_stakes_decisions: true
+  include_below_threshold_summary_when_applicable: true
+  use_standardized_decision_ledger_schema: true
+  use_canonical_decision_state_register: true
+  line_item_log_elevated_decisions: true
+  include_options_considered: true
+  include_selected_option: true
+  include_selection_reason: true
+  include_decision_source: true
+  include_assumption_used_field: true
+  include_placeholder_used_field: true
+  include_review_requirement_field: true
+  include_comparison_notes: true
+traceability:
+  require_cross_stage_traceability: true
+  require_stable_ids: true
+  require_source_authority_for_major_items: true
+  require_stage_1_to_stage_2_links: true
+  require_stage_2_to_stage_3_links: true
+  require_stage_3_to_stage_4_links: true
+  require_final_traceability_matrix: true
+  trace_placeholders_across_stages: true
+  trace_review_gated_items_across_stages: true
+  trace_blocked_items_across_stages: true
+  trace_external_tool_required_items: true
+  trace_external_validation_required_items: true
+safety_and_integrity:
+  do_not_fabricate_verified_facts: true
+  do_not_fabricate_official_records: true
+  do_not_fabricate_signatures_or_approvals: true
+  do_not_fabricate_licenses_or_certifications: true
+  do_not_assume_ownership_or_rights_from_attachments: true
+  do_not_claim_compliance_without_evidence_and_review: true
+  preserve_placeholders: true
+  preserve_review_gated_items: true
+  no_public_release_without_explicit_authorization: true
+  no_production_deployment_without_explicit_authorization: true
+  no_app_store_submission_without_explicit_authorization: true
+  no_credentials_or_private_data_use_without_explicit_authorization: true
+  no_destructive_operations_without_explicit_authorization: true
+  no_external_api_execution_without_explicit_authorization: true
+placeholder_policy:
+  use_controlled_placeholder_tokens: true
+  prohibit_vague_tbd: true
+  register_every_placeholder: true
+  preserve_placeholders_across_stages: true
+  replace_only_with_user_supplied_values: true
+  include_replacement_instruction: true
+  include_downstream_handling_instruction: true
+review_gated_policy:
+  preserve_review_gated_items_across_stages: true
+  register_review_gated_items: true
+  identify_required_reviewer_type: true
+  prohibit_auto_resolution_without_authorization: true
+  block_release_when_high_stakes_review_is_unresolved: true
+machine_readable_companions:
+  enabled: true
+  human_readable_documents_remain_canonical: true
+  include_normalized_active_configuration: true
+  include_handoff_packet: true
+  required_files:
+  - normalized_active_stage_4_configuration.yaml
+  - final_artifact_manifest.json
+  - validation_report.csv
+  - repair_log.csv
+  - final_traceability_matrix.csv
+  - defect_unresolved_item_register.json
+  - final_handoff_packet.yaml
+completion_gate:
+  required: true
+  require_configuration_processed_or_defaulted: true
+  require_normalized_active_configuration_included: true
+  require_completion_gate_result_matches_artifact_status: true
+  require_machine_readable_companion_data_matches_human_readable_suite: true
+status:
+  configuration_complete: true
+  safe_to_use_as_stage_4_unity_game_profile: true
+input_handling:
+  require_stage_3_artifact: true
+  expected_stage_3_boundary_markers:
+    begin_marker: '<<<BEGIN STAGE 3 ARTIFACT: 100% FABRICATION-COMPLETE DELIVERABLE PACKAGE SUITE>>>'
+    end_marker: <<<END STAGE 3 ARTIFACT>>>
+  if_stage_3_artifact_missing:
+    handling: Create blocked or placeholder-complete Stage 4 artifact according to active prompt mode.
+    block_validation_complete_status: true
+  optional_inputs:
+  - stage-4-validation-packaging.configuration.yaml
+  - pipeline.configuration.yaml
+  - Stage 2 artifact for execution-plan reference
+  - Stage 1 artifact for design reference
+  - validation preferences
+  - repair constraints
+  - handoff format preferences
+validation_scope:
+  stage_4_validation_in_scope:
+  - file completeness
+  - artifact completeness
+  - design-lock compliance
+  - execution-plan compliance
+  - fabrication-record compliance
+  - traceability
+  - acceptance criteria
+  - rejection criteria
+  - placeholder preservation
+  - review-gated item preservation
+  - external-tool-required item classification
+  - syntax, schema, and format where possible
+  - QA coverage
+  - final manifest consistency
+  - handoff readiness
+  stage_4_out_of_scope:
+  - product redesign
+  - execution replanning
+  - unapproved fabrication changes
+  - final deployment
+  - public publishing
+  - app store submission
+  - credential-based operations
+  - destructive operations
+validation:
+  required: true
+  depth: standard
+  validate_every_stage_3_artifact_or_classify_not_applicable_or_not_run: true
+  validate_traceability: true
+  validate_acceptance_criteria: true
+  validate_rejection_criteria: true
+  mark_unrun_checks_not_run: true
+  do_not_claim_build_success_if_not_run: true
+repair_policy:
+  allow_auto_repair: true
+  allow_formatting_repairs: true
+  allow_link_repairs: true
+  allow_manifest_repairs: true
+  allow_unambiguous_syntax_repairs: true
+  allow_traceability_repairs_when_mapping_is_unambiguous: true
+  prohibit_design_changing_repairs: true
+  prohibit_execution_plan_changing_repairs: true
+  prohibit_placeholder_guessing: true
+  prohibit_silent_repairs: true
+  require_repair_log: true
+final_artifact_manifest:
+  required: true
+  classify_every_stage_3_artifact: true
+  every_stage_3_artifact_must_be_included_or_explicitly_classified: true
+  final_status_values:
+  - Included
+  - Included with Warning
+  - Excluded
+  - Blocked
+  - Review-Gated
+  - External-Tool-Required
+  - External Validation Required
+  - Placeholder-Complete
+  - Not Applicable
+release_and_authorization:
+  do_not_deploy: true
+  do_not_publish: true
+  do_not_submit_to_app_store: true
+  do_not_use_credentials: true
+  require_explicit_authorization_for_release: true
+  include_user_approval_packet: true
+  include_release_deployment_not_performed_statement: true
+hidden_finalization_decision_scan:
+  required: true
+  standard: No final recipient should need to guess what was validated, repaired, included, excluded, blocked, review-gated,
+    externally required, or approved.
+  required_areas:
+  - Stage 3 fabricated artifact record
+  - Validation scope
+  - Validation methods
+  - File completeness validation
+  - Design-lock compliance validation
+  - Traceability validation
+  - Repair scope
+  - Allowed repairs
+  - Repair log
+  - Package contents
+  - Final artifact inclusion
+  - Warnings
+  - Blocked items
+  - Review-gated items
+  - External-tool-required items
+  - External-validation-required items
+  - Final handoff status
+  - User approval requirements
+product_profile:
+  product_type: unity_game
+  profile_file: stage-4-unity-game.configuration.yaml
+  inherits_from_default_stage_configuration: true
+unity_toolchain:
+  engine: Unity
+  unity_version: '[S1-PH-003: UNITY_VERSION]'
+  recommended_default_unity_version_if_user_approves: Unity 6000.4.11f1
+  ui_framework: '[S1-PH-006: UNITY_UI_FRAMEWORK]'
+  recommended_ui_framework: UI Toolkit
+  render_pipeline: '[S1-PH-005: UNITY_RENDER_PIPELINE]'
+  recommended_render_pipeline_if_2d: Universal Render Pipeline with 2D Renderer
+  input_system: '[S1-PH-007: UNITY_INPUT_SYSTEM]'
+  recommended_input_system: Unity Input System
+unity_high_stakes_review:
+  authentication: Review-Gated
+  accounts: Review-Gated
+  personal_data: Privacy Review Required
+  cloud_save: Security and Privacy Review Required
+  analytics: Privacy Review Required
+  ads: Privacy and Platform Policy Review Required
+  in_app_purchases: Platform Policy and Payment Review Required
+  multiplayer: Security and Privacy Review Required
+  public_release: External Authorization Required
+  app_store_submission: External Authorization Required
+unity_validation_scope:
+  validate_text_artifacts: true
+  mark_external_validation_required_unless_actual_evidence_is_provided:
+  - Unity package resolution
+  - Unity C# compilation
+  - Unity API compatibility in target Unity version
+  - Unity UI Toolkit import
+  - Unity Input Actions import
+  - Unity scene creation
+  - Unity prefab creation
+  - Unity asset import
+  - Unity Edit Mode test execution
+  - Unity Play Mode test execution
+  - Unity player build
+  - platform smoke test
+  - performance profiling
+  - store package validation
+  do_not_claim_without_evidence:
+  - Unity compilation succeeded
+  - Unity tests passed
+  - Unity build succeeded
+  - platform approval obtained
+unity_final_package:
+  include_unity_source_code_section: true
+  include_unity_ui_artifacts_section: true
+  include_unity_scene_prefab_specifications_section: true
+  include_unity_external_tool_required_section: true
+  include_unity_external_validation_required_section: true
+  include_unity_release_authorization_section: true
+unity_finalization_scope:
+  unity_validation: true
+  external_validation: true
+  release_authorization: true
+unity_environment_validation:
+  unity_editor_available: record
+  build_status: report honestly

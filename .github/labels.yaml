@@ -1,0 +1,12 @@
+- name: documentation
+  color: "0075ca"
+  description: Documentation updates.
+- name: prompts
+  color: "5319e7"
+  description: Prompt file changes.
+- name: configuration
+  color: "c2e0c6"
+  description: Configuration profile changes.
+- name: high-stakes-review
+  color: "b60205"
+  description: Requires high-stakes safety review.

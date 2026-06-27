@@ -1,0 +1,15 @@
+{
+  "project": "DecisionComplete Prompt Pipeline",
+  "repository": "decision-complete-prompt-pipeline",
+  "version": "1.0.0",
+  "batch": 3,
+  "approximate_completion_percent": 45,
+  "added": [
+    "Stage 1 prompt library",
+    "Stage 2 prompt library",
+    "Stage 1 overview and shared rules",
+    "Stage 2 overview and shared rules",
+    "validator checks for Stage 1 and Stage 2 prompt files"
+  ],
+  "next_batch": "Stage 3 and Stage 4 prompt libraries"
+}

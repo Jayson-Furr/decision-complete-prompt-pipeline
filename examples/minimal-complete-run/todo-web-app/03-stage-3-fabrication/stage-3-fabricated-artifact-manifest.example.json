@@ -1,0 +1,39 @@
+{
+  "fabricated_artifacts": [
+    {
+      "artifact_id": "S3-ART-001",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/package.json",
+      "source_work_package_id": "S2-WP-001",
+      "validation_status": "Passed"
+    },
+    {
+      "artifact_id": "S3-ART-003",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/src/App.tsx",
+      "source_work_package_id": "S2-WP-002",
+      "validation_status": "Passed"
+    },
+    {
+      "artifact_id": "S3-ART-006",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/src/App.test.tsx",
+      "source_work_package_id": "S2-WP-003",
+      "validation_status": "Not Run"
+    },
+    {
+      "artifact_id": "S3-ART-007",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/index.html",
+      "source_work_package_id": "S2-WP-001",
+      "validation_status": "Partially Passed"
+    },
+    {
+      "artifact_id": "S3-ART-008",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/src/App.test.tsx",
+      "source_work_package_id": "S2-WP-002",
+      "validation_status": "Not Run"
+    }
+  ]
+}

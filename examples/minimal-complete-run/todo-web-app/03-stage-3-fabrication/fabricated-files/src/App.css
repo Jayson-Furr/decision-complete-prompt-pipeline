@@ -1,0 +1,98 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #172033;
+  background: #f4f7fb;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 0.6rem;
+  background: #2854d8;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0.65rem 0.85rem;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 2px;
+}
+
+.app-shell {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 2rem;
+}
+
+.todo-card {
+  width: min(42rem, 100%);
+  border-radius: 1.25rem;
+  background: #ffffff;
+  box-shadow: 0 1rem 3rem rgba(23, 32, 51, 0.12);
+  padding: 2rem;
+}
+
+.eyebrow {
+  color: #53617a;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.todo-entry-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.todo-entry-row input {
+  flex: 1;
+  border: 1px solid #b8c0d4;
+  border-radius: 0.6rem;
+  padding: 0.65rem 0.85rem;
+}
+
+.empty-state {
+  border: 1px dashed #a9b4cc;
+  border-radius: 0.75rem;
+  color: #53617a;
+  padding: 1rem;
+}
+
+.todo-list {
+  display: grid;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  align-items: center;
+  border: 1px solid #dde3f0;
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+}
+
+.todo-toggle {
+  align-items: center;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.completed {
+  color: #667085;
+  text-decoration: line-through;
+}

@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Build and package artifacts
+*.zip
+*.tar.gz
+*.tmp
+*.bak
+
+# Local validation scratch output
+.validation-output/
+
+# Secrets
+*.pem
+*.key
+secrets.*
+credentials.*

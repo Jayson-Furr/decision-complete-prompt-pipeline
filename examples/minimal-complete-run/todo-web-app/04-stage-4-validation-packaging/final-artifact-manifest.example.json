@@ -1,0 +1,33 @@
+{
+  "final_artifacts": [
+    {
+      "final_artifact_id": "S4-FINAL-001",
+      "final_status": "Included",
+      "path": "fabricated-files/package.json",
+      "source_artifact_id": "S3-ART-001",
+      "validation_status": "Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-004",
+      "final_status": "Included with Warning",
+      "path": "fabricated-files/src/App.test.tsx",
+      "source_artifact_id": "S3-ART-006",
+      "validation_status": "Not Run"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-005",
+      "final_path": "fabricated-files/index.html",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-007",
+      "validation_status": "Partially Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-006",
+      "final_path": "fabricated-files/src/App.test.tsx",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-008",
+      "validation_status": "Not Run"
+    }
+  ],
+  "final_handoff_status": "Ready with Warnings"
+}

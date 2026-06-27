@@ -1,0 +1,39 @@
+{
+  "work_packages": [
+    {
+      "expected_artifacts": [
+        "S2-ARTEXP-001",
+        "S2-ARTEXP-002"
+      ],
+      "name": "Unity Counter Runtime Scripts",
+      "status": "Ready",
+      "work_package_id": "S2-WP-001"
+    },
+    {
+      "expected_artifacts": [
+        "S2-ARTEXP-003",
+        "S2-ARTEXP-004"
+      ],
+      "name": "UI Toolkit Screen Files",
+      "status": "Ready",
+      "work_package_id": "S2-WP-002"
+    },
+    {
+      "expected_artifacts": [
+        "S2-ARTEXP-005"
+      ],
+      "name": "Unity Scene Creation Packet",
+      "status": "Ready",
+      "work_package_id": "S2-WP-003"
+    },
+    {
+      "expected_artifacts": [
+        "S2-ARTEXP-006",
+        "S2-ARTEXP-007"
+      ],
+      "name": "Unity Validation and Tests",
+      "status": "Ready",
+      "work_package_id": "S2-WP-004"
+    }
+  ]
+}

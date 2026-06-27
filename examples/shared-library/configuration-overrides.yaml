@@ -1,0 +1,30 @@
+configuration_metadata:
+  config_name: "example-shared-library-configweave"
+  config_version: "1.0.0"
+  applies_to_example: "examples/shared-library"
+  extends:
+    - "configuration-examples/stage-1-shared-library.configuration.yaml"
+    - "pipeline.configuration.yaml"
+
+product:
+  product_name: "ConfigWeave"
+  product_type: "shared_library"
+  release_tier: "Version 1.0"
+
+toolchain:
+  language: "TypeScript"
+  runtime: "Node.js LTS"
+  package_manager: "npm"
+  test_framework: "Vitest"
+  module_formats:
+    - "ESM"
+    - "CJS"
+
+release_and_publishing:
+  npm_publish_authorized: false
+  prepare_release_notes_only: true
+  require_license_review: true
+
+security:
+  redact_secrets_in_reports: true
+  no_real_secrets_in_tests: true

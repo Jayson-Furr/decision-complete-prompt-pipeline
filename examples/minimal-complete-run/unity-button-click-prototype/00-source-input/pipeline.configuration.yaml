@@ -1,0 +1,20 @@
+configuration_metadata:
+  config_name: "unity-button-click-minimal-complete-run"
+  config_version: "1.0.0"
+  applies_to_example: "examples/minimal-complete-run/unity-button-click-prototype"
+
+prompt_modes:
+  stage_1: "medium_stakes_design_interview"
+  stage_2: "medium_stakes_execution_interview"
+  stage_3: "medium_stakes_fabrication_interview"
+  stage_4: "medium_stakes_finalization_interview"
+
+product:
+  product_type: "unity_game"
+  product_name: "Button Click Prototype"
+  release_tier: "Prototype"
+
+unity_toolchain:
+  unity_version: "Unity 6000.4.11f1"
+  ui_framework: "UI Toolkit"
+  distribution: "Local development prototype only"

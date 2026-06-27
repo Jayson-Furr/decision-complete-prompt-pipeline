@@ -1,0 +1,48 @@
+{
+  "complete_miniature_runs": [
+    "examples/minimal-complete-run/todo-web-app",
+    "examples/minimal-complete-run/unity-button-click-prototype"
+  ],
+  "completion_percent": 100,
+  "final_batch": 13,
+  "included_profile_families": [
+    "default",
+    "unity_game",
+    "web_application",
+    "shared_library"
+  ],
+  "notes": "Final v1.0.0 publication cut consolidates public-facing release language, refreshes owner/repository metadata, preserves complete examples and deepened profiles, and validates deterministic manifests.",
+  "project": "DecisionComplete Prompt Pipeline",
+  "publication_url": "https://github.com/Jayson-Furr/decision-complete-prompt-pipeline",
+  "recommended_future_profile_families": [
+    "godot_game",
+    "unreal_game",
+    "web_service",
+    "mobile_application",
+    "desktop_application",
+    "sdk",
+    "ai_agent_application"
+  ],
+  "release_date": "2026-06-27",
+  "release_status": "v1_0_0_final_publication_recut_complete",
+  "repository": "Jayson-Furr/decision-complete-prompt-pipeline",
+  "status": "public_repository_ready",
+  "validation_scope": {
+    "does_not_validate": [
+      "downstream generated artifact correctness",
+      "legal approval",
+      "rights clearance",
+      "privacy compliance",
+      "security certification",
+      "compliance approval",
+      "production readiness",
+      "deployment success",
+      "public release success",
+      "app store approval"
+    ],
+    "scope_type": "repository_structure_and_consistency",
+    "semantic_validation_depth": "limited"
+  },
+  "validation_status": "passed",
+  "version": "1.0.0"
+}

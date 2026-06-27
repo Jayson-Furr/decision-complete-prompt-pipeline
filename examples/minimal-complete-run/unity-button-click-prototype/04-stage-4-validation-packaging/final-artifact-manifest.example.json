@@ -1,0 +1,65 @@
+{
+  "final_artifacts": [
+    {
+      "final_artifact_id": "S4-FINAL-001",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-001",
+      "validation_status": "Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-002",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-002",
+      "validation_status": "Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-003",
+      "final_status": "External Validation Required",
+      "source_artifact_id": "S3-ART-003",
+      "validation_status": "Partially Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-004",
+      "final_status": "External Validation Required",
+      "source_artifact_id": "S3-ART-006",
+      "validation_status": "Not Run"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-005",
+      "final_status": "External-Tool-Required",
+      "source_artifact_id": "S3-EXT-001",
+      "validation_status": "Not Applicable"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-006",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-007",
+      "validation_status": "Partially Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-007",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-008",
+      "validation_status": "Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-008",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-009",
+      "validation_status": "Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-009",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-010",
+      "validation_status": "Passed"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-010",
+      "final_status": "Included with Warning",
+      "source_artifact_id": "S3-ART-011",
+      "validation_status": "Passed"
+    }
+  ],
+  "final_handoff_status": "External Validation Required"
+}

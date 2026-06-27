@@ -1,0 +1,2102 @@
+{
+  "file_count": 348,
+  "files": [
+    {
+      "bytes": 212,
+      "category": "root",
+      "path": ".editorconfig",
+      "sha256": "85bccbd23a9070becfe1dc0dbb9ad7305fb2bb98f92f54cb9856d7d6eca4ebfe"
+    },
+    {
+      "bytes": 127,
+      "category": "root",
+      "path": ".gitattributes",
+      "sha256": "6d82220ed6ae10cef6b627c99dbd67ec5cb1daa6268af272ff2982f9fe99ef32"
+    },
+    {
+      "bytes": 43,
+      "category": ".github",
+      "path": ".github/CODEOWNERS",
+      "sha256": "67ffef992f3677974b482e3eb3c6dcbedbbe84981bcd7489ddd30d33e4593a4f"
+    },
+    {
+      "bytes": 683,
+      "category": ".github",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "b820758891770b31413856f5ac0cd1dbf88b400504945e20b74a4c596f4a560c"
+    },
+    {
+      "bytes": 214,
+      "category": ".github",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "cef1deb8d321b10aa65bd491f7c860028712f35445699abf27c044a1e33af5c8"
+    },
+    {
+      "bytes": 455,
+      "category": ".github",
+      "path": ".github/ISSUE_TEMPLATE/configuration_profile_request.md",
+      "sha256": "7e30896c9a1e6aeeb41f34277163800b81ab5f5f1e4016e20a7a4693388710eb"
+    },
+    {
+      "bytes": 360,
+      "category": ".github",
+      "path": ".github/ISSUE_TEMPLATE/documentation_issue.md",
+      "sha256": "ea842fd3dc0296d1e3163bd0502da44f2b51e908087de15126d515ab66357b16"
+    },
+    {
+      "bytes": 585,
+      "category": ".github",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha256": "de2f99f0aa4c5fb2a9b606352482a1f5e4a5b954da45cd537c0c0aad76434202"
+    },
+    {
+      "bytes": 550,
+      "category": ".github",
+      "path": ".github/ISSUE_TEMPLATE/prompt_quality_report.md",
+      "sha256": "ccb9048af471f7c411225f541f2e3e414e634c5e1ca070f2ac4c66e1e9c8d16f"
+    },
+    {
+      "bytes": 253,
+      "category": ".github",
+      "path": ".github/ISSUE_TEMPLATE/question.md",
+      "sha256": "53768adf1e99e373e5d9f4aad2ec2092c2e1b8427731a5295098ce34c5bc58d4"
+    },
+    {
+      "bytes": 534,
+      "category": ".github",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "604aeb3429a6035905194d53d11b8e47a133fd296210941efcbad3ae22516d7e"
+    },
+    {
+      "bytes": 119,
+      "category": ".github",
+      "path": ".github/dependabot.yml",
+      "sha256": "8912c495e7a2514170ad43170ceda3e1c0a48402c92bd096215c4b6ec6a31a03"
+    },
+    {
+      "bytes": 530,
+      "category": ".github",
+      "path": ".github/labeler.yml",
+      "sha256": "e075381117fb3419632975b153afa3d076b5446f182851b9c241736fa24c6c87"
+    },
+    {
+      "bytes": 330,
+      "category": ".github",
+      "path": ".github/labels.yaml",
+      "sha256": "6d7e5b120f662aba5871d450f942eddecd0fb4ccdb07333c1df15d4d0d25f534"
+    },
+    {
+      "bytes": 738,
+      "category": ".github",
+      "path": ".github/workflows/validate.yml",
+      "sha256": "1b86653b8d7d987e80f9f3cfea466c14442741bb727288e8e13a053b6f0cb9dc"
+    },
+    {
+      "bytes": 293,
+      "category": "root",
+      "path": ".gitignore",
+      "sha256": "4b7493fd3acdb7f88d3a4441af9bcf8b1dd30649febcd8c954de316a818d3811"
+    },
+    {
+      "bytes": 670,
+      "category": "root",
+      "path": "ADOPTERS.md",
+      "sha256": "237785275d7e3679566bbb536520bae75bd87d91fb8ec8a866fdc827f23ced55"
+    },
+    {
+      "bytes": 3528,
+      "category": "root",
+      "path": "CHANGELOG.md",
+      "sha256": "f5f3b2f0334d68cd14417c177ceb72de4cb59e428dcd2a29f11da42bef4b1f84"
+    },
+    {
+      "bytes": 721,
+      "category": "root",
+      "path": "CITATION.cff",
+      "sha256": "23456b782bdaea2134b35c238b796f0373560f6f60ca39cf2bb59f131f804762"
+    },
+    {
+      "bytes": 805,
+      "category": "root",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "6701e2cef0b01be62ca707ec764fa15a5cd1622635c2fe6a4307c99fb0a3f57b"
+    },
+    {
+      "bytes": 1702,
+      "category": "root",
+      "path": "CONTRIBUTING.md",
+      "sha256": "9e56046c1f0529eddac4d455c01fbb41b992d680d572e7f6d79716564156c676"
+    },
+    {
+      "bytes": 1489,
+      "category": "root",
+      "path": "FINAL-PACKAGE-NOTES.md",
+      "sha256": "bdeda9a0dbcdd9c6ac6053193e2d69d3e427f4e0a36e81000a8910f139ad55c2"
+    },
+    {
+      "bytes": 695,
+      "category": "root",
+      "path": "GOVERNANCE.md",
+      "sha256": "0c06bf05adafd0ec955bd5b74fc2c2506399cc2ccc0c369a480858d8be7c8f4a"
+    },
+    {
+      "bytes": 1077,
+      "category": "root",
+      "path": "LICENSE",
+      "sha256": "043470387ace3fb4397e17d97f18fd750731848437806b06b62a60893fd1df35"
+    },
+    {
+      "bytes": 776,
+      "category": "root",
+      "path": "MAINTAINERS.md",
+      "sha256": "d20927f97449590bb91723186674e78229c3cd39182bd20908ef86ab68377222"
+    },
+    {
+      "bytes": 5432,
+      "category": "root",
+      "path": "MANIFEST.md",
+      "sha256": "7ee83bbfbfd276b8871ffdc5d95ae7c7e0c853b2386c8f77fbe8a5fc91057792"
+    },
+    {
+      "bytes": 451,
+      "category": "root",
+      "path": "NOTICE.md",
+      "sha256": "af4a256e9297b950889b4aeb80951767ebefdbc8d886e968d3c5098890aa37bc"
+    },
+    {
+      "bytes": 1201,
+      "category": "root",
+      "path": "PACKAGE-BUILD-STATUS.md",
+      "sha256": "d24ccfe311e8d08157f0e31fa20879b4f31aee8f4e9911730f907166c2fa1ed0"
+    },
+    {
+      "bytes": 1865,
+      "category": "root",
+      "path": "PUBLICATION-CHECKLIST.md",
+      "sha256": "c8f593b148b4fc2ac7fce10035973d19b954e52b32aa34873889df7aae59f3ba"
+    },
+    {
+      "bytes": 3480,
+      "category": "root",
+      "path": "Pipeline-Configuration-Guide.md",
+      "sha256": "25a188bfeaf8efa7f78c7adb252ff7395dffcbdc1bcd7770ea9164b2e59cb80f"
+    },
+    {
+      "bytes": 3471,
+      "category": "root",
+      "path": "Pipeline-Controller-Prompt.md",
+      "sha256": "ea95979cf7947b63424ce71ca7e1f40ab7445e42182366886419b7bd690cf743"
+    },
+    {
+      "bytes": 2262,
+      "category": "root",
+      "path": "Pipeline-Overview.md",
+      "sha256": "cfc5b3803873a2f6d42d11d79e1d967c716c3b105b22548932b57b67e5eff792"
+    },
+    {
+      "bytes": 8382,
+      "category": "root",
+      "path": "README.md",
+      "sha256": "c433111c858dd45b5ea848a57104d7141aea96acbd11e15f0cb2dae09a7dbb1a"
+    },
+    {
+      "bytes": 3316,
+      "category": "root",
+      "path": "RELEASE.md",
+      "sha256": "db9647512d1a5261670ff5c7fdf9ccb1a2d84f47f31e269df57611a2fa2ccec0"
+    },
+    {
+      "bytes": 1432,
+      "category": "root",
+      "path": "ROADMAP.md",
+      "sha256": "e73ab5b20aea01635a553df64af8d4a01b421e065cf34dcfa7c628f32c6e8af5"
+    },
+    {
+      "bytes": 1147,
+      "category": "root",
+      "path": "SECURITY.md",
+      "sha256": "dad7a61a914bb2952f793c4c4923793fd5c0cc1909ff72ada04e5e5c2620a25a"
+    },
+    {
+      "bytes": 695,
+      "category": "root",
+      "path": "SUPPORT.md",
+      "sha256": "5c064d0ed04a254c9b9408316a5288c7f5d13f365dc99db436257079a4d71a71"
+    },
+    {
+      "bytes": 6,
+      "category": "root",
+      "path": "VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "bytes": 2304,
+      "category": "configuration-examples",
+      "path": "configuration-examples/README.md",
+      "sha256": "210bbc4f4ada906befdb1b819afa48e1845b3ea4fc82e01336115c3ebd0773c2"
+    },
+    {
+      "bytes": 1214,
+      "category": "configuration-examples",
+      "path": "configuration-examples/configuration-index.yaml",
+      "sha256": "411c00b1a1ed2940c04252c3174d9525fbd2a9f7d10aa901e67fa7cfc998e761"
+    },
+    {
+      "bytes": 3465,
+      "category": "configuration-examples",
+      "path": "configuration-examples/profile-family-roadmap.yaml",
+      "sha256": "176b13da2d3d50abff1feba984ed299add9966832c3d33ed0964beca77f010d2"
+    },
+    {
+      "bytes": 9914,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-1-default.configuration.yaml",
+      "sha256": "f8edaf55bd91be717a22746e146399caeb4253c11ff595451f5833d51e8c07c3"
+    },
+    {
+      "bytes": 15096,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-1-shared-library.configuration.yaml",
+      "sha256": "a7a16a413363e433a25267005a970c513b5a77d57d8a9bec8086e1b94702316e"
+    },
+    {
+      "bytes": 12204,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-1-unity-game.configuration.yaml",
+      "sha256": "b376215d0d185a2f1354cfa15f70bfd7b31e4aa34ff9a09873ae0a91efffdaab"
+    },
+    {
+      "bytes": 17919,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-1-web-application.configuration.yaml",
+      "sha256": "a5eefb90b2ac79bee7fbb9a3583689a37fb47211e924edac925829879cfc66b4"
+    },
+    {
+      "bytes": 9530,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-2-default.configuration.yaml",
+      "sha256": "f911cf957ba3f7fb0eaf426fa2dc6f9d1ec1b25aee10c94de08f28935c9287e1"
+    },
+    {
+      "bytes": 14571,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-2-shared-library.configuration.yaml",
+      "sha256": "fedf8c66dc234356c6595688e4f020defe51185b1f9dc3432f2dfdeb1068e723"
+    },
+    {
+      "bytes": 12174,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-2-unity-game.configuration.yaml",
+      "sha256": "2ca7f780c02c55d790c09e6742c34e99a1f529a8a1388033e4aaa32d5e72d07e"
+    },
+    {
+      "bytes": 15754,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-2-web-application.configuration.yaml",
+      "sha256": "fa620640a38dd945170b96feec8dfaaec0afb3352c67b68e20c46398d5ba1ac7"
+    },
+    {
+      "bytes": 9839,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-3-default.configuration.yaml",
+      "sha256": "744571d56351bcc468e46741d3cc2ebb36fb3d8c15aa7dd6beed3b54ad715139"
+    },
+    {
+      "bytes": 14887,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-3-shared-library.configuration.yaml",
+      "sha256": "a3d965d8bed5d13a7875c1604597fbc8b7341a824eab6889205bc49709390b5a"
+    },
+    {
+      "bytes": 12308,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-3-unity-game.configuration.yaml",
+      "sha256": "65e4ed3a8edaf1359fcad68db194eae3a10d6d23b9ad7892fc89a32b1403f297"
+    },
+    {
+      "bytes": 15771,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-3-web-application.configuration.yaml",
+      "sha256": "c0292af9fa6a4d7ea888c8cbf065b3d5c737a90ca0c6a85050b2c0d7fed8b57b"
+    },
+    {
+      "bytes": 10499,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-4-default.configuration.yaml",
+      "sha256": "2a08835f3069a571fece12e0ee642c5823c10d3a9ca98bc246f1e818c323de63"
+    },
+    {
+      "bytes": 16160,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-4-shared-library.configuration.yaml",
+      "sha256": "8cb1361a6d45d6ce3ff44ae6f6111880d726cea3080b4509ce15bf33bbe39cd3"
+    },
+    {
+      "bytes": 12912,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-4-unity-game.configuration.yaml",
+      "sha256": "abda6b4bf7b1102e56a871192a7f95d0d0d82f7094b5cd28d6b73140023b681c"
+    },
+    {
+      "bytes": 16271,
+      "category": "configuration-examples",
+      "path": "configuration-examples/stage-4-web-application.configuration.yaml",
+      "sha256": "6b68018ce3f61d48e89c3bb81010227fb3e910a150fc2ad114e8016cee698351"
+    },
+    {
+      "bytes": 2433,
+      "category": "docs",
+      "path": "docs/Artifact-Handoff-Guide.md",
+      "sha256": "2425df432fabc294eecb4bf5b4e411c78a53385dc005bb01c67752edac61e911"
+    },
+    {
+      "bytes": 3375,
+      "category": "docs",
+      "path": "docs/Artifact-Lifecycle.md",
+      "sha256": "c8d7db5c7bd16d467dd4657eec51cd4fbcd68018f44ff4621fe08fc964ff60be"
+    },
+    {
+      "bytes": 2436,
+      "category": "docs",
+      "path": "docs/Batch-Build-Process.md",
+      "sha256": "a4eb1324bfd970ab00dcf0e991d1b051bde9b57b770e567789c8d13642310e97"
+    },
+    {
+      "bytes": 2368,
+      "category": "docs",
+      "path": "docs/Complete-Miniature-Examples.md",
+      "sha256": "f3da9b794ef90306f15b905a5f5288f5c3a6c8650e327602e8e37bb3b8a03f63"
+    },
+    {
+      "bytes": 3084,
+      "category": "docs",
+      "path": "docs/Complete-Miniature-Run-Guide.md",
+      "sha256": "416ef7f4e28c26660513b974109d90d6814a12344968d96a49e5fc928f9e030b"
+    },
+    {
+      "bytes": 2131,
+      "category": "docs",
+      "path": "docs/Complete-Miniature-Runs.md",
+      "sha256": "5ee89403a81ebff22c4a7208317cb49f257b9ffd766b666ed90edd94218dc63c"
+    },
+    {
+      "bytes": 1316,
+      "category": "docs",
+      "path": "docs/Configuration-Inventory.md",
+      "sha256": "a74fdee647636e29223bded1ba4993e7af30ccb7c5b0440c65709c25fa7c845e"
+    },
+    {
+      "bytes": 3209,
+      "category": "docs",
+      "path": "docs/Configuration-Profile-Selection-Guide.md",
+      "sha256": "aaa743492d35a28dda66f83e6d89df40cc456fa2858bfc63573826aface2b85c"
+    },
+    {
+      "bytes": 3077,
+      "category": "docs",
+      "path": "docs/Decision-Ledger-Comparison-Guide.md",
+      "sha256": "62e65585d8f14fd2503ab00f42fe2d709cb1762c83b4c29e12cfe9a9cb8c5a3a"
+    },
+    {
+      "bytes": 2868,
+      "category": "docs",
+      "path": "docs/Example-Scenario-Guide.md",
+      "sha256": "55ba96fb4aaa0793f35f7097a9372e96c76edd3c46efb89d3d4b099fdbc3b779"
+    },
+    {
+      "bytes": 4037,
+      "category": "docs",
+      "path": "docs/Example-Walkthroughs.md",
+      "sha256": "6f16585702c3e2cf58264a914597999127bab6264277df94c6510eb74095af7d"
+    },
+    {
+      "bytes": 2427,
+      "category": "docs",
+      "path": "docs/FAQ.md",
+      "sha256": "81bebd8cf8594705031b415116e7e4301f6b9b7ae4b92c4853723790fcdf106d"
+    },
+    {
+      "bytes": 215,
+      "category": "docs",
+      "path": "docs/Final-Publication-Cut.md",
+      "sha256": "bfd861655719cfd5d0222187ddc8791df278d1f8fff16cf0c46ead20cb36d187"
+    },
+    {
+      "bytes": 1922,
+      "category": "docs",
+      "path": "docs/Final-Release-Checklist.md",
+      "sha256": "220fca464027f8f247999383367f9d2eca37600d76b7a2351cb05c50d607cd04"
+    },
+    {
+      "bytes": 2155,
+      "category": "docs",
+      "path": "docs/Final-v1.0.0-Publication-Recut.md",
+      "sha256": "60e223b37b237dff1241e5b05eb46e1c51a179f21f77915036bda174ffc11563"
+    },
+    {
+      "bytes": 524,
+      "category": "docs",
+      "path": "docs/Forking-and-Customization-Guide.md",
+      "sha256": "67d2b6756704e61a672fe049eb5017f14276f2a7c08b704634d36cf99e17f414"
+    },
+    {
+      "bytes": 2431,
+      "category": "docs",
+      "path": "docs/GitHub-Publishing-Checklist.md",
+      "sha256": "c2a3c27ed1746363be403c475b2e0ec56e74ade73ae58f0c535bd537a640ff10"
+    },
+    {
+      "bytes": 526,
+      "category": "docs",
+      "path": "docs/GitHub-Repository-Administration.md",
+      "sha256": "b280a2cf5a0dfed3c330395d2ff242bf189bd1dc5d3b6d0acb841c61eb9a6786"
+    },
+    {
+      "bytes": 1098,
+      "category": "docs",
+      "path": "docs/Post-Publish-Smoke-Test.md",
+      "sha256": "1187c1ba8b2f8943c647b71aba41c1ae28fc18bae2c22ca78f335a73d47b93f4"
+    },
+    {
+      "bytes": 308,
+      "category": "docs",
+      "path": "docs/Pre-Publication-Audit.md",
+      "sha256": "2a80afd996e08febfa90db5585d4351b6d05cb535e42d78e39b40436966442f2"
+    },
+    {
+      "bytes": 5637,
+      "category": "docs",
+      "path": "docs/Profile-Authoring-Guide.md",
+      "sha256": "de71500e1d5afdcecbd3af370230cd9406c23d87b32fa60a0aab5cd112dc9cb1"
+    },
+    {
+      "bytes": 2608,
+      "category": "docs",
+      "path": "docs/Profile-Depth-Balance-Report.md",
+      "sha256": "6f5718371d1bd8c385e84c4cf271063d9a15483fb11a4c3d3b7ab0bec0c4cfbf"
+    },
+    {
+      "bytes": 6104,
+      "category": "docs",
+      "path": "docs/Profile-Family-Roadmap.md",
+      "sha256": "49a275002ffc697f22c5ff6ad3573c75b5c8be8463ce26e92fd7cd31e4a9aff9"
+    },
+    {
+      "bytes": 1606,
+      "category": "docs",
+      "path": "docs/Prompt-Inventory.md",
+      "sha256": "106271b2dbcedf53a080e69c66f2e6cae14d7b66118d02d1b30a3ba9fb2e0ec1"
+    },
+    {
+      "bytes": 3042,
+      "category": "docs",
+      "path": "docs/Prompt-Mode-Selection-Guide.md",
+      "sha256": "ffb4dbe20584bfcfe248fdd984f41b1d5b64ad6f6a24a1d03f0c4511e8ac0f1c"
+    },
+    {
+      "bytes": 1603,
+      "category": "docs",
+      "path": "docs/Public-Repository-Release-Notes.md",
+      "sha256": "57301ef2b7f077b394d3e586b9092c24509c34850e5c9acd2352894048bde342"
+    },
+    {
+      "bytes": 982,
+      "category": "docs",
+      "path": "docs/Public-Repository-Setup.md",
+      "sha256": "c16ea492469af88a890e9b11d3c765e5e74812cd6502260b3cf2d1cef0bf8b8a"
+    },
+    {
+      "bytes": 922,
+      "category": "docs",
+      "path": "docs/Quality-Assurance-Process.md",
+      "sha256": "ed7c5710a2e98adecbd57a04a07e37add73aa134e158bd998b96276e21294db9"
+    },
+    {
+      "bytes": 3622,
+      "category": "docs",
+      "path": "docs/Quick-Start.md",
+      "sha256": "638d428ea3b84df51ab82325f266df7883b408ce17b41ad7f6a600d998d3e9ff"
+    },
+    {
+      "bytes": 2854,
+      "category": "docs",
+      "path": "docs/README.md",
+      "sha256": "25cd5c987fa151dd92f1ae0fbc0077ccb76f746568b672b335285d317c58e047"
+    },
+    {
+      "bytes": 705,
+      "category": "docs",
+      "path": "docs/Release-Process.md",
+      "sha256": "6724506a1922c5e7be6c62bf3f693ea1a69fe25336d7e0746fbb5d61de80fc63"
+    },
+    {
+      "bytes": 1441,
+      "category": "docs",
+      "path": "docs/Repository-Launch-Guide.md",
+      "sha256": "02fd9ee06547290fda8cd27b127f89709da998e01131b2f43c357a32f84fccc6"
+    },
+    {
+      "bytes": 2916,
+      "category": "docs",
+      "path": "docs/Repository-Layout.md",
+      "sha256": "faea595d4a7b785504119f6786f2b452cc7676be3a3713147e63883f09fa4760"
+    },
+    {
+      "bytes": 390,
+      "category": "docs",
+      "path": "docs/Repository-Maintenance.md",
+      "sha256": "6cab9e2380f33076a66b09e83017d5649710adad1866db89a7b199924d8f49aa"
+    },
+    {
+      "bytes": 495,
+      "category": "docs",
+      "path": "docs/Repository-Owner-Checklist.md",
+      "sha256": "711cabb84dffdba7ef1cd525de3b0583b325e3dbe949c4a7230b3f18f61e53f4"
+    },
+    {
+      "bytes": 969,
+      "category": "docs",
+      "path": "docs/Schema-Configuration-Alignment.md",
+      "sha256": "502bbdfafdf8e77efa3315ee75366c4a851eb766e1ed828b8dcab9327aabb88f"
+    },
+    {
+      "bytes": 3906,
+      "category": "docs",
+      "path": "docs/Semantic-Validation-Guide.md",
+      "sha256": "090bc238139b338e86542715a879b6d8573a31a93425baa808a934b2805a4b55"
+    },
+    {
+      "bytes": 1734,
+      "category": "docs",
+      "path": "docs/Shared-Library-SDK-Profile-Deep-Dive.md",
+      "sha256": "1d27fa77daa1dcfa727df9592867dbbd346f61c4a1f43175587aeec14bbc47b0"
+    },
+    {
+      "bytes": 2491,
+      "category": "docs",
+      "path": "docs/Troubleshooting.md",
+      "sha256": "06d401294097f17c1c8df054f8f511b26bb0dcafb225dde8dc1862af289c235f"
+    },
+    {
+      "bytes": 4585,
+      "category": "docs",
+      "path": "docs/Usage-Guide.md",
+      "sha256": "0b342e71c6f3cb348d977752dfadd229b8463b4827441b458006290f26947fdc"
+    },
+    {
+      "bytes": 2413,
+      "category": "docs",
+      "path": "docs/Validation-Guarantee-Matrix.md",
+      "sha256": "8522946ef6cc38cc395b5036832953c5de9b59b1d8339a838f398327b3dc50b1"
+    },
+    {
+      "bytes": 4561,
+      "category": "docs",
+      "path": "docs/Validation-Scope-and-Guarantees.md",
+      "sha256": "d3119b93c8a434286530fe7915e6556c8eac1d8a199750281d2a4f3488554c3b"
+    },
+    {
+      "bytes": 5061,
+      "category": "docs",
+      "path": "docs/Validation-Tools.md",
+      "sha256": "7e486c4ddc80d69d6469e800ecc45cfc45db58b3b2901103a93a9182be42e059"
+    },
+    {
+      "bytes": 1155,
+      "category": "docs",
+      "path": "docs/Validator-Implementation-Notes.md",
+      "sha256": "514e112f1615a86b94aa763cc68fe46d96a17dcada31e817f227cf9e07f0584f"
+    },
+    {
+      "bytes": 403,
+      "category": "docs",
+      "path": "docs/Versioning-Policy.md",
+      "sha256": "b57f79bc83a3ba453c43e984e489032f0f3860a982b90afdf8735298bb5f2b21"
+    },
+    {
+      "bytes": 1874,
+      "category": "docs",
+      "path": "docs/Web-Application-Profile-Deep-Dive.md",
+      "sha256": "87a51831ca431ab96a46a1cea709c2a361675bc6aca5cfd328cf8d135eedddc6"
+    },
+    {
+      "bytes": 3165,
+      "category": "examples",
+      "path": "examples/README.md",
+      "sha256": "a71153b8b05ab48acc63867ceead4f2cf09b32ba0f1c1052e0e86c4978112413"
+    },
+    {
+      "bytes": 1491,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/README.md",
+      "sha256": "ba7b5b2dd71512af82cbabaf792a415520a619545de37a05ec1359abae7a80f5"
+    },
+    {
+      "bytes": 628,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/00-source-input/pipeline.configuration.yaml",
+      "sha256": "4d22179371978cb3789b41908794ddbf1ee929abe74775c7c4aaa2ab7a81ddcc"
+    },
+    {
+      "bytes": 446,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/00-source-input/user-input.md",
+      "sha256": "ab56daea6a26bce3a881a17f635d80d1e5cea6a2e8cd87e1db903aeb30b035b0"
+    },
+    {
+      "bytes": 7546,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-artifact.example.md",
+      "sha256": "19bf0c638d6190cac1cf9f47e7cfd2d0f7292db1b71663d181fbca1324f59c19"
+    },
+    {
+      "bytes": 1295,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-decision-ledger.example.csv",
+      "sha256": "e6a913d49d0276e5805b666e65d72757efeed0eb441cf0dc5004ee608269c073"
+    },
+    {
+      "bytes": 484,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv",
+      "sha256": "ec4fbd2495ead171b80b161b7e5061c7ae73258158c51fa1ab045b46215dd87f"
+    },
+    {
+      "bytes": 5274,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-artifact.example.md",
+      "sha256": "883330ec3e6166cfaaa8e27d895f9e372e13ea5dee113017acc408141b35fe80"
+    },
+    {
+      "bytes": 852,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-decision-ledger.example.csv",
+      "sha256": "f09d7d3e85b49f178a3216fb311f76da5b5176c246d6fa71d8e2700fd81c9c94"
+    },
+    {
+      "bytes": 584,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-traceability-matrix.example.csv",
+      "sha256": "0b95c73a1ce4d30aa45b9282309b0f3fa892c8b9c7d6a4693f8182f903a1bffa"
+    },
+    {
+      "bytes": 978,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/stage-2-work-package-registry.example.json",
+      "sha256": "57337ba5dbd47da2bc4a3b15a6d0d99f5d0069d3a937aa7982ec917acc9672c9"
+    },
+    {
+      "bytes": 1012,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/02-stage-2-execution-planning/work-package-registry.example.json",
+      "sha256": "0b07eb10bed7140a4488a885dca35019b7f9e95dde83096197dda912af796a92"
+    },
+    {
+      "bytes": 689,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-artifact-manifest.example.json",
+      "sha256": "37309804c49e7b3ab4846b983148ecee2eb5abb70282350dc610b0207a3e9fc2"
+    },
+    {
+      "bytes": 481,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-files/README.generated.md",
+      "sha256": "7ce47fe43f08acec2b7f365df63a3f93d86d353892fee3233e7d08d5ffefd334"
+    },
+    {
+      "bytes": 297,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-files/index.html",
+      "sha256": "0600dbccfab390af6f5e119aee75ee4a4dbae409c4b984cec65fbc679547e7b9"
+    },
+    {
+      "bytes": 523,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-files/package.json",
+      "sha256": "8121ad2839bca72e4d1da562f784d4c5c75c53cdead151bca4851c325c5a3159"
+    },
+    {
+      "bytes": 1485,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-files/src/App.css",
+      "sha256": "b748e2d0ee46bb54f9e341ad72e72f602a1b2d1d20719a779068a439798625cf"
+    },
+    {
+      "bytes": 444,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-files/src/App.test.tsx",
+      "sha256": "9ffe71c132754f51930276d2cb87c1c58b3b6a5d1b22c96b89fb8a93946f6286"
+    },
+    {
+      "bytes": 2760,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-files/src/App.tsx",
+      "sha256": "3303fc620405f58bf9e7cd97d5de77f30f90b49091bd953c9519c0e514e75abf"
+    },
+    {
+      "bytes": 349,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-files/src/main.tsx",
+      "sha256": "560aee7565874e60775956e5220ef29698a89ece47cc58912a82c1c67bee5276"
+    },
+    {
+      "bytes": 82,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/fabricated-files/src/types.ts",
+      "sha256": "c2fd54963ce814150cd9691e2376142b983e085b60195831f428b33f61d61f10"
+    },
+    {
+      "bytes": 3209,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/stage-3-artifact.example.md",
+      "sha256": "51505b5b9ab834ee5fe838005c9efc08bbbd16c0dfc8c2f467b80e148614ed7a"
+    },
+    {
+      "bytes": 996,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/stage-3-decision-ledger.example.csv",
+      "sha256": "67a6552d0ad466d00da2587c491bb5e409be580951fa1a32b7ec1fbe8818229c"
+    },
+    {
+      "bytes": 1142,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/stage-3-fabricated-artifact-manifest.example.json",
+      "sha256": "ef23d93e2cfd94d9063b1b9f5ea33473198c428f8d706a34bdc88625cb7447bd"
+    },
+    {
+      "bytes": 501,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/03-stage-3-fabrication/stage-3-traceability-matrix.example.csv",
+      "sha256": "f72f553c65aaa06bc1c7d840be40e8f912367192e9677ad666b77861112b41b9"
+    },
+    {
+      "bytes": 1008,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/04-stage-4-validation-packaging/final-artifact-manifest.example.json",
+      "sha256": "55b88c5bf99d851df154fc8c50f3a4511d2fc621c9c5d5b3963a19290e9dab03"
+    },
+    {
+      "bytes": 676,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/04-stage-4-validation-packaging/final-handoff-packet.example.yaml",
+      "sha256": "1163e457cfe8b5f35c7886fc21e1235fa88518741eba1897c19df06b50dc7562"
+    },
+    {
+      "bytes": 532,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/04-stage-4-validation-packaging/final-traceability-matrix.example.csv",
+      "sha256": "c02c0da2127e14795e1ff4627b5a2da79bcc2f5bb91b4d03c7ddf4d95a4a937d"
+    },
+    {
+      "bytes": 324,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/04-stage-4-validation-packaging/repair-log.example.csv",
+      "sha256": "bf20972ec9c4caac74f32b4be401d51d575205925c6dc7bb8aacdaea0c5905ab"
+    },
+    {
+      "bytes": 3826,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/04-stage-4-validation-packaging/stage-4-artifact.example.md",
+      "sha256": "1793d6228cc8a931e0e60c5181620b2d8f1e0811ef8d194b1c0e3dc5ca8292dc"
+    },
+    {
+      "bytes": 854,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/04-stage-4-validation-packaging/stage-4-decision-ledger.example.csv",
+      "sha256": "63197c171ab2d69d6d10746c0574fa1dca6dbcd68cb0add7ddef8068d55349bb"
+    },
+    {
+      "bytes": 512,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/04-stage-4-validation-packaging/validation-checklist.example.md",
+      "sha256": "0d24f0ace6725c460af5fc4b4fef665c6f74c63d80f478bb18dc75eb080e67cc"
+    },
+    {
+      "bytes": 698,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/04-stage-4-validation-packaging/validation-report.example.csv",
+      "sha256": "97431b4e4c09e40a06a842981e1c796df5d8c9020954d0e1810bb10635f0113c"
+    },
+    {
+      "bytes": 587,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/05-side-by-side-review/decision-ledger-comparison-notes.md",
+      "sha256": "adeaea51faa5d03af91d8b6041a722163e8df270d85136d00722964607734e62"
+    },
+    {
+      "bytes": 778,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/05-side-by-side-review/traceability-walkthrough.md",
+      "sha256": "c80edd82a8edff05cfc8148bd45723915c02a4ca9ef280eec1967a6e0be9fdfe"
+    },
+    {
+      "bytes": 758,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/todo-web-app/README.md",
+      "sha256": "8b43cbe79aca0f39a2896e59dd5c8e5861976eb07677ffc0a2ad72d932b0a60c"
+    },
+    {
+      "bytes": 638,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/00-source-input/pipeline.configuration.yaml",
+      "sha256": "ede72aea450da32f275c976a8a427566d21e6e72447e29fe4018643c51bee0eb"
+    },
+    {
+      "bytes": 567,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/00-source-input/user-input.md",
+      "sha256": "8a42c6f0a9c1e50ab70cb73b24567491acd2d84880b24b5a4adde3d3c684f420"
+    },
+    {
+      "bytes": 4707,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-artifact.example.md",
+      "sha256": "ce305d78d3941e47ae9b645226107b4617c23679b647b996ded9c200ec31d463"
+    },
+    {
+      "bytes": 1241,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-decision-ledger.example.csv",
+      "sha256": "c4fb79811afe70893cb30a092c57e4ee97ffe7d09eaf63d837a6e909861b16c5"
+    },
+    {
+      "bytes": 428,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/01-stage-1-design-specification/stage-1-traceability-matrix.example.csv",
+      "sha256": "3397da58458278d1caea1d177643ad472292e4d8999c6393a5799c38670105bb"
+    },
+    {
+      "bytes": 3705,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-artifact.example.md",
+      "sha256": "847f6a9b3594e2ce2056e687c2327a85f7ed019f344add694b9ccd91d2803856"
+    },
+    {
+      "bytes": 917,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-decision-ledger.example.csv",
+      "sha256": "5202bb70d33165747e107deacaa83b6d4767ee7ac2ed8e6b71155db9561dce3b"
+    },
+    {
+      "bytes": 487,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-traceability-matrix.example.csv",
+      "sha256": "b7fdd00ed2fd41d0c1c96a0cf0a8814258f67936da1ba4d9c8b9faed32d1aba7"
+    },
+    {
+      "bytes": 832,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/stage-2-work-package-registry.example.json",
+      "sha256": "b225a57b0eee2ceead521481eacdb7f4cbc6a4a1e0e4ec9c51caaadd8de64027"
+    },
+    {
+      "bytes": 832,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/02-stage-2-execution-planning/work-package-registry.example.json",
+      "sha256": "9148c0d5d4ca4892e3d4cb95bd2e8fe295f214bc64dd790332b3fb7d8ba9492a"
+    },
+    {
+      "bytes": 714,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Assets/Tests/EditMode/ButtonClickCounterTests.cs",
+      "sha256": "5b33053dc9eb197b94844bf97df2359899d31b5f576a285ca0731781938e88b2"
+    },
+    {
+      "bytes": 415,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Assets/_Project/Scripts/Runtime/ButtonClickCounter.cs",
+      "sha256": "58b92eab4ce3619e15dec658a8edbc65b4b29ab698edf86aad3426e6db70ae92"
+    },
+    {
+      "bytes": 318,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Assets/_Project/Scripts/UI/ClickButtonPresenter.cs",
+      "sha256": "6457588fcb19067f7bc3ea031a6c45717644276b9f535b6d81cfa689c2acedf3"
+    },
+    {
+      "bytes": 423,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Assets/_Project/UI/USS/ButtonClickDemo.uss",
+      "sha256": "e51f222a417b2a94c259163cef224618c641f78e99540d45713358cf84ece13e"
+    },
+    {
+      "bytes": 423,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Assets/_Project/UI/USS/ClickButtonScreen.uss",
+      "sha256": "e51f222a417b2a94c259163cef224618c641f78e99540d45713358cf84ece13e"
+    },
+    {
+      "bytes": 365,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Assets/_Project/UI/UXML/ButtonClickDemo.uxml",
+      "sha256": "06c0a766b062dd6b644d5e52e379f1c022e6b814d97971ea6885abc9610153b6"
+    },
+    {
+      "bytes": 365,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Assets/_Project/UI/UXML/ClickButtonScreen.uxml",
+      "sha256": "06c0a766b062dd6b644d5e52e379f1c022e6b814d97971ea6885abc9610153b6"
+    },
+    {
+      "bytes": 540,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Docs/UnityEditorValidationChecklist.md",
+      "sha256": "4b5b1ef84a5cab455517c8b48888725473c1c5b06f6601c52fb28646b94e11ad"
+    },
+    {
+      "bytes": 470,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/Docs/UnityProjectStructure.md",
+      "sha256": "0ab2147b3c3e72a8fc3c9113c0a29984c7adbdb4ab1e89ab422a31dec9260c8a"
+    },
+    {
+      "bytes": 565,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/ExternalToolPackets/ButtonClickDemoSceneCreationPacket.md",
+      "sha256": "397ecc31619509aa57068fcfd797b0bb9ff934d8cce1efd13aab6ceb28b6faf4"
+    },
+    {
+      "bytes": 565,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/ExternalToolPackets/UnitySceneCreationPacket.md",
+      "sha256": "397ecc31619509aa57068fcfd797b0bb9ff934d8cce1efd13aab6ceb28b6faf4"
+    },
+    {
+      "bytes": 540,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/fabricated-files/ExternalValidation/UnityEditorValidationChecklist.md",
+      "sha256": "4b5b1ef84a5cab455517c8b48888725473c1c5b06f6601c52fb28646b94e11ad"
+    },
+    {
+      "bytes": 4808,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/stage-3-artifact.example.md",
+      "sha256": "e9ae9d2b7e245b29218e99bcad6a6f52de1262ba439d4eef642a140ff60a9d65"
+    },
+    {
+      "bytes": 988,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/stage-3-decision-ledger.example.csv",
+      "sha256": "e92b244843290adc6d25f14663eaf0ddd01e50a560c78bb67fc68bee0d807de9"
+    },
+    {
+      "bytes": 2585,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/stage-3-fabricated-artifact-manifest.example.json",
+      "sha256": "7586fcbf77f7da73be53ef1c6098dd319a04513a21085fb8fdb35fc7d657a7d9"
+    },
+    {
+      "bytes": 591,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/stage-3-traceability-matrix.example.csv",
+      "sha256": "4809a2d879fe2c4e086f6cce666ea7b506469cbfd8e4cfe27eae1a7caf0e65d5"
+    },
+    {
+      "bytes": 1116,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/03-stage-3-fabrication/unity-fabricated-artifact-manifest.example.json",
+      "sha256": "46355fdb6a17d003fc706eea6f0150d6fbf648cc1fb121e53e0d7fe48273cfbc"
+    },
+    {
+      "bytes": 1942,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/final-artifact-manifest.example.json",
+      "sha256": "c651d6cfa2c3d6dcf9895015b3afc13b9bb7ff1706cdc92fefbe6ee7f2b51cfa"
+    },
+    {
+      "bytes": 943,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/final-handoff-packet.example.yaml",
+      "sha256": "0232b2c11912ffa523e4e087f48ceeef96abacaa0380b56815d622efde7ca4c8"
+    },
+    {
+      "bytes": 676,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/final-traceability-matrix.example.csv",
+      "sha256": "dc63e7d1167dc49a105b1b0dc54a7cddf0d12d3def8fe785478fef3b188f1038"
+    },
+    {
+      "bytes": 338,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/repair-log.example.csv",
+      "sha256": "5c24fa9ab09a672f4327be521a529be2e391f33e6223aa7bdaef5ed36ffd12d1"
+    },
+    {
+      "bytes": 4922,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/stage-4-artifact.example.md",
+      "sha256": "d18b895c5d35a8fb9ab7d366429e1ab5babbbb1850bbcc8e82f5e73951ab1246"
+    },
+    {
+      "bytes": 940,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/stage-4-decision-ledger.example.csv",
+      "sha256": "cbd271775637c0e449522b349e3f0157129e949bba6cbdf147c84fa9d392b3bc"
+    },
+    {
+      "bytes": 630,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-final-artifact-manifest.example.json",
+      "sha256": "d9e6a8fdc28716362c0ad21c84c14dedaffce79908387d5126c3f12f0c73c7d6"
+    },
+    {
+      "bytes": 1031,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-final-handoff-packet.example.yaml",
+      "sha256": "08915736fa73cdb022369c819710e30c93362df75d260b0f6031a8226cab0486"
+    },
+    {
+      "bytes": 895,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/unity-validation-report.example.csv",
+      "sha256": "a8d2ad4bc583f1e372b259c4ea0e1746275e4968467a81867363c7be14466139"
+    },
+    {
+      "bytes": 526,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/04-stage-4-validation-packaging/validation-report.example.csv",
+      "sha256": "c1ce79a19bcf4a977f098c0510d0c35acf97463db0d3c92a3dc1628ba31e49dc"
+    },
+    {
+      "bytes": 468,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/05-side-by-side-review/decision-ledger-comparison-notes.md",
+      "sha256": "207c53823f396148a97cf11c93bbdd3858995e0dc5934d5a6dff1ac5c725683c"
+    },
+    {
+      "bytes": 786,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/05-side-by-side-review/traceability-walkthrough.md",
+      "sha256": "12a9d49f856c77d7c511fffe99c776d18e5bb3b911575475ba0c41c3ce8f8a4b"
+    },
+    {
+      "bytes": 764,
+      "category": "examples",
+      "path": "examples/minimal-complete-run/unity-button-click-prototype/README.md",
+      "sha256": "fba9581d4a833e9b678ae8dad5219664ea589c0dbc44f672c9c756c686946427"
+    },
+    {
+      "bytes": 2645,
+      "category": "examples",
+      "path": "examples/shared-library/README.md",
+      "sha256": "b29cf9cc866c8e20e20af957b76b0b87fb466645c5065b52f10422fdafd49697"
+    },
+    {
+      "bytes": 996,
+      "category": "examples",
+      "path": "examples/shared-library/artifact-skeletons/stage-1-artifact-skeleton.md",
+      "sha256": "9006b27e7273c56e2e184d270b50fecc018094f1489163a2789aea4d51e1fd24"
+    },
+    {
+      "bytes": 975,
+      "category": "examples",
+      "path": "examples/shared-library/artifact-skeletons/stage-2-artifact-skeleton.md",
+      "sha256": "7067f86cb9f26ed7d6ffd9939d59b6a94a7de701a3ad994464107696292dc601"
+    },
+    {
+      "bytes": 985,
+      "category": "examples",
+      "path": "examples/shared-library/artifact-skeletons/stage-3-artifact-skeleton.md",
+      "sha256": "59d987f60a7f08876c3270852cc2862b4b078967a766e1900fc4961c5da0d68b"
+    },
+    {
+      "bytes": 985,
+      "category": "examples",
+      "path": "examples/shared-library/artifact-skeletons/stage-4-artifact-skeleton.md",
+      "sha256": "03007cfb49f0459f662ab6bf84bf9f53dd11904e924700b9fb9f6cd1382666af"
+    },
+    {
+      "bytes": 1445,
+      "category": "examples",
+      "path": "examples/shared-library/checklists/stage-4-validation-checklist.md",
+      "sha256": "08043aa679b2e3e38e4a80be66dada482a7295496b8dec4d2781f7242f3d9c30"
+    },
+    {
+      "bytes": 1017,
+      "category": "examples",
+      "path": "examples/shared-library/configuration/pipeline.override.yaml",
+      "sha256": "e261fcf876a90b805260ed9dd43ad755db01fc0a427f2c3c2add5defcd106487"
+    },
+    {
+      "bytes": 730,
+      "category": "examples",
+      "path": "examples/shared-library/configuration-overrides.yaml",
+      "sha256": "fe0008bcaf6fa0b052575bdf77a8c2307a07846d4a0d9a450eba137aa38a5564"
+    },
+    {
+      "bytes": 1738,
+      "category": "examples",
+      "path": "examples/shared-library/decision-ledger-comparison/sample-decision-ledger.csv",
+      "sha256": "0288863cdb3ec1c666800d4319c4f9e7324251b75b6b3c9e325f8efafbe7892e"
+    },
+    {
+      "bytes": 1266,
+      "category": "examples",
+      "path": "examples/shared-library/input/project-brief.md",
+      "sha256": "5b6bd21dbca82cacce0dd33fad8e4c5360a66239c25694abd2e11a481b27b551"
+    },
+    {
+      "bytes": 1417,
+      "category": "examples",
+      "path": "examples/shared-library/input/stage-1-context-packet.md",
+      "sha256": "b1e8a7e899dc702998cab4e69ca892ff056fb401e5f359f9a6cb99aae6aca0ba"
+    },
+    {
+      "bytes": 966,
+      "category": "examples",
+      "path": "examples/shared-library/project-brief.md",
+      "sha256": "1f09f7ed95256ad4cb3df4d2a5ef8f0faabd3faf64b2ec2493da7bd076fa20db"
+    },
+    {
+      "bytes": 900,
+      "category": "examples",
+      "path": "examples/shared-library/runbook.md",
+      "sha256": "298d693fdb42ba38a01a681dc2a265f6891ed4eb087b6d2960fab4f90121c0bf"
+    },
+    {
+      "bytes": 1425,
+      "category": "examples",
+      "path": "examples/shared-library/runbooks/01-run-stage-1.md",
+      "sha256": "abd8deb14ecbf584c5485d727a28b10f352a09e5ae34df15252d8cdb5146fb28"
+    },
+    {
+      "bytes": 1392,
+      "category": "examples",
+      "path": "examples/shared-library/runbooks/02-run-stage-2.md",
+      "sha256": "015294c3479d1e50a2add24c22de104170275f9ec499abda834f17d5c660848a"
+    },
+    {
+      "bytes": 1392,
+      "category": "examples",
+      "path": "examples/shared-library/runbooks/03-run-stage-3.md",
+      "sha256": "6cd7b5d6cecd489caf19a08da77b5a0875d5cc9058b6aee53e293f8d384672d0"
+    },
+    {
+      "bytes": 1403,
+      "category": "examples",
+      "path": "examples/shared-library/runbooks/04-run-stage-4.md",
+      "sha256": "5c91f2bd96b60f9a982b3aecc2a77552d709aa0b7d05dbe9048c43666c21dfaf"
+    },
+    {
+      "bytes": 807,
+      "category": "examples",
+      "path": "examples/shared-library/source-context/api-design-notes.md",
+      "sha256": "bb766cd39737f16d4bdb0965cb4f3fef65f2e1739b7961ff5cb7592f14fa2bf2"
+    },
+    {
+      "bytes": 992,
+      "category": "examples",
+      "path": "examples/shared-library/stage-1-input.md",
+      "sha256": "ab49ff67fdb7b0f6aa37d0ff5a342341250a3337cf8a68ee8dcd720865110af2"
+    },
+    {
+      "bytes": 1270,
+      "category": "examples",
+      "path": "examples/shared-library/stage-artifact-stubs/stage-1-artifact.stub.md",
+      "sha256": "0ea796123f7ba3142f6db188bf9e0542af438bf38ede495856bd6c3c03aef30c"
+    },
+    {
+      "bytes": 1230,
+      "category": "examples",
+      "path": "examples/shared-library/stage-artifact-stubs/stage-2-artifact.stub.md",
+      "sha256": "95090cc3812dbfeee3c23f4736281e3aaecb918161578675608af7683b4998a8"
+    },
+    {
+      "bytes": 1245,
+      "category": "examples",
+      "path": "examples/shared-library/stage-artifact-stubs/stage-3-artifact.stub.md",
+      "sha256": "41e4f0f6123d6da4d7edd54441a5963733b2194f54576323fbeca68805360e60"
+    },
+    {
+      "bytes": 1401,
+      "category": "examples",
+      "path": "examples/shared-library/stage-artifact-stubs/stage-4-artifact.stub.md",
+      "sha256": "1ef6bde931b21061d878df002fbaed4630d4e09cec42a5e49bf065d37be22528"
+    },
+    {
+      "bytes": 573,
+      "category": "examples",
+      "path": "examples/shared-library/traceability/sample-traceability-matrix.csv",
+      "sha256": "4a5338ede5de7e45258a20089d6d836ac7e095b46a6c1a91091fe0b2a6059d18"
+    },
+    {
+      "bytes": 2639,
+      "category": "examples",
+      "path": "examples/unity-game/README.md",
+      "sha256": "0408feab50d7f8017089ce4d2e7277d9ca02d5a546e74ef7b3a88a2df9ac7ce2"
+    },
+    {
+      "bytes": 1006,
+      "category": "examples",
+      "path": "examples/unity-game/artifact-skeletons/stage-1-artifact-skeleton.md",
+      "sha256": "cb6713894d49e7f51d1fa43b16c1a3683c194e5b6a1823c0788a2b53401709c9"
+    },
+    {
+      "bytes": 985,
+      "category": "examples",
+      "path": "examples/unity-game/artifact-skeletons/stage-2-artifact-skeleton.md",
+      "sha256": "3a74357cb233956254e65feae1b71276bf73fafa0c967e055cf95c1857ea7d77"
+    },
+    {
+      "bytes": 995,
+      "category": "examples",
+      "path": "examples/unity-game/artifact-skeletons/stage-3-artifact-skeleton.md",
+      "sha256": "abf5b87ef097257d73198923f9b2fc5b9e6ccc7c3d52dd3cf6b2b4189c83f28c"
+    },
+    {
+      "bytes": 995,
+      "category": "examples",
+      "path": "examples/unity-game/artifact-skeletons/stage-4-artifact-skeleton.md",
+      "sha256": "202e894778270b201a3e03728c056cad8c8e6f309343e97177edd3a56c7ea1d7"
+    },
+    {
+      "bytes": 1454,
+      "category": "examples",
+      "path": "examples/unity-game/checklists/stage-4-validation-checklist.md",
+      "sha256": "c370d63ff33376877500ea65271318834c7d21e7e9c2ddff6580704196272973"
+    },
+    {
+      "bytes": 1009,
+      "category": "examples",
+      "path": "examples/unity-game/configuration/pipeline.override.yaml",
+      "sha256": "e86fa10219057616a95682cb2424efab36587f982c4a470d3307a2e19d26230b"
+    },
+    {
+      "bytes": 1134,
+      "category": "examples",
+      "path": "examples/unity-game/configuration-overrides.yaml",
+      "sha256": "a5bd43c1601ff5737675f4ca6f0df24cb2f40e093305b362f04498a9d6313a20"
+    },
+    {
+      "bytes": 1718,
+      "category": "examples",
+      "path": "examples/unity-game/decision-ledger-comparison/sample-decision-ledger.csv",
+      "sha256": "92749599bd9fa67d897ebda6b2fd94aa94ab514c537563e2e21b97d535d9543a"
+    },
+    {
+      "bytes": 1284,
+      "category": "examples",
+      "path": "examples/unity-game/input/project-brief.md",
+      "sha256": "5034b8439690986ec5a55bb66121ab4b2555a13e7672602e2be7b1c094c38167"
+    },
+    {
+      "bytes": 1442,
+      "category": "examples",
+      "path": "examples/unity-game/input/stage-1-context-packet.md",
+      "sha256": "1f7d2207d5ebd8f9bc0c46677b07b275ffa5e75f5a351e6e596ec5e74dad36ea"
+    },
+    {
+      "bytes": 1186,
+      "category": "examples",
+      "path": "examples/unity-game/project-brief.md",
+      "sha256": "ef85b90f4e16ff40fd31ec8fc75b92b59c7ae11fa5c16c7cd9e88a46b660961a"
+    },
+    {
+      "bytes": 1648,
+      "category": "examples",
+      "path": "examples/unity-game/runbook.md",
+      "sha256": "7fa99b9e8ed819ac3a3bcc40997025d06f0d8313551720473ab49190bbe996f0"
+    },
+    {
+      "bytes": 1431,
+      "category": "examples",
+      "path": "examples/unity-game/runbooks/01-run-stage-1.md",
+      "sha256": "6bc6d9f56c339aa2720b2ffd9c566beb1462a2e398b38e503be636385570f9e7"
+    },
+    {
+      "bytes": 1398,
+      "category": "examples",
+      "path": "examples/unity-game/runbooks/02-run-stage-2.md",
+      "sha256": "d36e1376e5f38822b974f6474350e98e25106b598cd6cf9b3476fac7a89716d5"
+    },
+    {
+      "bytes": 1398,
+      "category": "examples",
+      "path": "examples/unity-game/runbooks/03-run-stage-3.md",
+      "sha256": "5d94fc866703bd2a4ceaca97698c75c29b101024bcb744a1a1d741c9f37d5935"
+    },
+    {
+      "bytes": 1409,
+      "category": "examples",
+      "path": "examples/unity-game/runbooks/04-run-stage-4.md",
+      "sha256": "581581bfe2947a49810cc6bdfa167963ad3f012f3e78ed6c1f077490d6856c92"
+    },
+    {
+      "bytes": 614,
+      "category": "examples",
+      "path": "examples/unity-game/source-context/visual-reference-inventory.md",
+      "sha256": "91cffd9ba52777cad528a9190ec72324411b5788884f92c3890de7ef4491b01f"
+    },
+    {
+      "bytes": 1920,
+      "category": "examples",
+      "path": "examples/unity-game/stage-1-input.md",
+      "sha256": "efd5b2a40288923d800b9adb02e36947235293f3df86a5e3bc6cd4fee4e13e38"
+    },
+    {
+      "bytes": 1276,
+      "category": "examples",
+      "path": "examples/unity-game/stage-artifact-stubs/stage-1-artifact.stub.md",
+      "sha256": "c0aa232b49bb793b360d14a4a858404e313c4affac7019a815ad5382b5996102"
+    },
+    {
+      "bytes": 1236,
+      "category": "examples",
+      "path": "examples/unity-game/stage-artifact-stubs/stage-2-artifact.stub.md",
+      "sha256": "596e8f6b176f11705d535bf7012c6bcf86884739c603e0b0689b0041b137a4f6"
+    },
+    {
+      "bytes": 1251,
+      "category": "examples",
+      "path": "examples/unity-game/stage-artifact-stubs/stage-3-artifact.stub.md",
+      "sha256": "a8ec700aae71c03c225a0f62e3d4a2930fd5e7930737d3d0a1ce20932ab46653"
+    },
+    {
+      "bytes": 1407,
+      "category": "examples",
+      "path": "examples/unity-game/stage-artifact-stubs/stage-4-artifact.stub.md",
+      "sha256": "dcd56eb1bccd8806cc736ce5aba3ffe708221bd5c6366b5f56f85a953c015a48"
+    },
+    {
+      "bytes": 563,
+      "category": "examples",
+      "path": "examples/unity-game/traceability/sample-traceability-matrix.csv",
+      "sha256": "0690013283bd3b870af2d9e91beff844a998f280aea71d69fec77ee3936de3a9"
+    },
+    {
+      "bytes": 2638,
+      "category": "examples",
+      "path": "examples/web-application/README.md",
+      "sha256": "90d3e71b08bf767b21d304547a031e8373e9370026b25cbc0ff8a4af322840fe"
+    },
+    {
+      "bytes": 999,
+      "category": "examples",
+      "path": "examples/web-application/artifact-skeletons/stage-1-artifact-skeleton.md",
+      "sha256": "e0b042256785f4657df3dacec49c601f124f583cff8511f19b16faf5b16d399a"
+    },
+    {
+      "bytes": 978,
+      "category": "examples",
+      "path": "examples/web-application/artifact-skeletons/stage-2-artifact-skeleton.md",
+      "sha256": "4453b7c8ea463cecc49a5b28a1428dace19fa470e3f21a96501f3ecc2f2c99e9"
+    },
+    {
+      "bytes": 988,
+      "category": "examples",
+      "path": "examples/web-application/artifact-skeletons/stage-3-artifact-skeleton.md",
+      "sha256": "e2e96d5a81b144f717d7f660608edf6d07aae8bdf70e09cd5f0c8860eef05abe"
+    },
+    {
+      "bytes": 988,
+      "category": "examples",
+      "path": "examples/web-application/artifact-skeletons/stage-4-artifact-skeleton.md",
+      "sha256": "e9ee61f8deb5f57982dac6ba67756540de5c3ca9765af44a9149cdbb671cf6f3"
+    },
+    {
+      "bytes": 1434,
+      "category": "examples",
+      "path": "examples/web-application/checklists/stage-4-validation-checklist.md",
+      "sha256": "65235cc97e6bc562b6bb9b42fd56010183a206126192c03e05902a19d9d0cdac"
+    },
+    {
+      "bytes": 1018,
+      "category": "examples",
+      "path": "examples/web-application/configuration/pipeline.override.yaml",
+      "sha256": "3d37fcfc9a97d8c60f25f9e44389e7e0d529fab2eca30791d35cdb2a27d0abed"
+    },
+    {
+      "bytes": 812,
+      "category": "examples",
+      "path": "examples/web-application/configuration-overrides.yaml",
+      "sha256": "ac7688c3e621127dd3e167cd113bdc4b34b0650eb07a42bfde6c3d5a5491e98c"
+    },
+    {
+      "bytes": 1728,
+      "category": "examples",
+      "path": "examples/web-application/decision-ledger-comparison/sample-decision-ledger.csv",
+      "sha256": "12746f2ee6e0f0929b4029311f438a452991245471c0265cacd20751fa84bb57"
+    },
+    {
+      "bytes": 1209,
+      "category": "examples",
+      "path": "examples/web-application/input/project-brief.md",
+      "sha256": "49dff8f8e3e72c7bbbc8d2f13a04da7e2368d5d3be0a6691a1e993650b3c1735"
+    },
+    {
+      "bytes": 1380,
+      "category": "examples",
+      "path": "examples/web-application/input/stage-1-context-packet.md",
+      "sha256": "7bb45cbb8e325b5afd64a4d092088edeb386fad3a62820b23015c83c03014b7b"
+    },
+    {
+      "bytes": 834,
+      "category": "examples",
+      "path": "examples/web-application/project-brief.md",
+      "sha256": "ff8550ff2911887f7af189686491100f6bd9b0886348e48d182d1a441c642289"
+    },
+    {
+      "bytes": 1124,
+      "category": "examples",
+      "path": "examples/web-application/runbook.md",
+      "sha256": "bb2917cb7d42c1e442f023080f2ba9dd4478802ee57db3da00baf3ae24d4edb8"
+    },
+    {
+      "bytes": 1430,
+      "category": "examples",
+      "path": "examples/web-application/runbooks/01-run-stage-1.md",
+      "sha256": "fb7504d30fa62dae20c9fe1e862ae2b219d3017391bef7f1c25f25b25fa0d3f4"
+    },
+    {
+      "bytes": 1397,
+      "category": "examples",
+      "path": "examples/web-application/runbooks/02-run-stage-2.md",
+      "sha256": "a3c999d645b0f57b5b80c50008b226fab0651b9e66d1819ec462f3ee8a9936ed"
+    },
+    {
+      "bytes": 1397,
+      "category": "examples",
+      "path": "examples/web-application/runbooks/03-run-stage-3.md",
+      "sha256": "cd0f54d134b4701196b670db3d999ed502defc0f6f11efb77320cacd10f6e08f"
+    },
+    {
+      "bytes": 1408,
+      "category": "examples",
+      "path": "examples/web-application/runbooks/04-run-stage-4.md",
+      "sha256": "4176727cb3a43756c14841d11040a55e07b11fe6308d074339b86008df175fec"
+    },
+    {
+      "bytes": 542,
+      "category": "examples",
+      "path": "examples/web-application/source-context/api-and-data-notes.md",
+      "sha256": "f515a89c077ce0ebf23949ecb3518e557425b7ea478e9ef5304920d188a8442c"
+    },
+    {
+      "bytes": 1061,
+      "category": "examples",
+      "path": "examples/web-application/stage-1-input.md",
+      "sha256": "11f0f49b217e6cddfca2960956c846202f2ba16a375f8f39ab95a2b9a0425d60"
+    },
+    {
+      "bytes": 1276,
+      "category": "examples",
+      "path": "examples/web-application/stage-artifact-stubs/stage-1-artifact.stub.md",
+      "sha256": "3a20ab932760ccfd9c6beda81dabfabb37d5504f898343c215ab2b79a36f3a3c"
+    },
+    {
+      "bytes": 1236,
+      "category": "examples",
+      "path": "examples/web-application/stage-artifact-stubs/stage-2-artifact.stub.md",
+      "sha256": "1ff36ce56be01026ba0776a014c01a9acb33229c2c73ba3098ac2fb29612d600"
+    },
+    {
+      "bytes": 1251,
+      "category": "examples",
+      "path": "examples/web-application/stage-artifact-stubs/stage-3-artifact.stub.md",
+      "sha256": "2933037dac64cb1e090e5ca0a440570b9cb0e423edb796d5403191e279819584"
+    },
+    {
+      "bytes": 1407,
+      "category": "examples",
+      "path": "examples/web-application/stage-artifact-stubs/stage-4-artifact.stub.md",
+      "sha256": "b4eb34b08ddf147cb3811d36fb31b84e01d100690bd547ad83676627a41d891a"
+    },
+    {
+      "bytes": 568,
+      "category": "examples",
+      "path": "examples/web-application/traceability/sample-traceability-matrix.csv",
+      "sha256": "d10d8c5fa0772b2dfee02b1915264c52208cc3274de1e6c20972ef456c9751b7"
+    },
+    {
+      "bytes": 1304,
+      "category": "manifests",
+      "path": "manifests/batch-10-summary.json",
+      "sha256": "feffdd9da57397e3365c39e729844018cde5ac755503df2c64af585c5cedfc95"
+    },
+    {
+      "bytes": 1248,
+      "category": "manifests",
+      "path": "manifests/batch-11-summary.json",
+      "sha256": "dd6e8d0c7e5aed1ccf649e665cf8d94894e1fd4043576929d5382c5bf9601998"
+    },
+    {
+      "bytes": 670,
+      "category": "manifests",
+      "path": "manifests/batch-12-summary.json",
+      "sha256": "1aeda1ab036328117602938ad1c8e9bb2216819aa73ae25879a7b291795cb953"
+    },
+    {
+      "bytes": 1151,
+      "category": "manifests",
+      "path": "manifests/batch-13-summary.json",
+      "sha256": "528774e2dfff196ed69d94edd789d3d527e330a39445ad4a45c254f5e054683a"
+    },
+    {
+      "bytes": 633,
+      "category": "manifests",
+      "path": "manifests/batch-2-summary.json",
+      "sha256": "b6d2292c413504b6e9783a242695382b55dd3b99a573124dbd511e36c7693579"
+    },
+    {
+      "bytes": 457,
+      "category": "manifests",
+      "path": "manifests/batch-3-summary.json",
+      "sha256": "bba1faaf2790e4897463f31e11c274ed71b181bb72c96698f884cc28d1c4b2b4"
+    },
+    {
+      "bytes": 440,
+      "category": "manifests",
+      "path": "manifests/batch-4-summary.json",
+      "sha256": "fe526c86b8f9fb60d69c4186317139373620c076270de06ce4f9e6a85e41a507"
+    },
+    {
+      "bytes": 1159,
+      "category": "manifests",
+      "path": "manifests/batch-5-summary.json",
+      "sha256": "278234eb38e04805ea93385cbea675d64a31b581a869faf13e4a406726b4b19d"
+    },
+    {
+      "bytes": 595,
+      "category": "manifests",
+      "path": "manifests/batch-6-summary.json",
+      "sha256": "de115447f3ddd237ed1beb352601ce95d9f55cda5ce32635cd013430113960fe"
+    },
+    {
+      "bytes": 917,
+      "category": "manifests",
+      "path": "manifests/batch-7-summary.json",
+      "sha256": "7c9a329222c08bfcee8f5995bf385d03aa41b45b897af6a6f1ce7e28e51e36fb"
+    },
+    {
+      "bytes": 832,
+      "category": "manifests",
+      "path": "manifests/batch-8-summary.json",
+      "sha256": "d8c9b7f6517d026db9ee9414cfcccfe8182da281f0904af069a1b0e1072768eb"
+    },
+    {
+      "bytes": 1213,
+      "category": "manifests",
+      "path": "manifests/batch-9-summary.json",
+      "sha256": "beda5baf463f11b720699b7640761a522e2c36fbc8791a553c4ad2d576c5fd4d"
+    },
+    {
+      "bytes": 896,
+      "category": "manifests",
+      "path": "manifests/final-release-checklist.csv",
+      "sha256": "ecf613c48a8dfab652cfd4c3cff163a9ae1eff17e4901544a4fb03a445b16f46"
+    },
+    {
+      "bytes": 1592,
+      "category": "manifests",
+      "path": "manifests/final-release-summary.json",
+      "sha256": "fc923b0189a00fc345c53f673ba690ed0dbe44fb7db8c189dc607291547f9448"
+    },
+    {
+      "bytes": 933,
+      "category": "manifests",
+      "path": "manifests/final-v1.0.0-publication-audit.json",
+      "sha256": "28b729c11f381229c30383a796ee871a7af02898676205033bd0866fb097c3cc"
+    },
+    {
+      "bytes": 4130,
+      "category": "root",
+      "path": "pipeline.configuration.yaml",
+      "sha256": "1228dc574836b2c55fbe20cfd06df25a0a122638499a795a7966d387288d56fd"
+    },
+    {
+      "bytes": 3307,
+      "category": "root",
+      "path": "repository-metadata.yaml",
+      "sha256": "fc86207ddbad61e2f9034af0a4328d7f18c11c013fb449ae1855457d0a72ed32"
+    },
+    {
+      "bytes": 437,
+      "category": "schemas",
+      "path": "schemas/README.md",
+      "sha256": "c041ee733d63c831fcb2c45b4a764d4d43bc70559daa4a80e0ba0e67ba9a8bbc"
+    },
+    {
+      "bytes": 353,
+      "category": "schemas",
+      "path": "schemas/artifact-manifest.schema.md",
+      "sha256": "b680cbf645232e295ec50b76e672d110efcaad83c0d069f38316ee89cdf23e1d"
+    },
+    {
+      "bytes": 454,
+      "category": "schemas",
+      "path": "schemas/decision-ledger.schema.md",
+      "sha256": "5f72af04989ece2af1cc9c577be31915d311dd064992f35fb1ef175e438bf879"
+    },
+    {
+      "bytes": 331,
+      "category": "schemas",
+      "path": "schemas/document-tree.schema.md",
+      "sha256": "7d0d7c9bbeb4d2712a62c48b4279ea1afde569d32e2a451f9909ece5f45f20f1"
+    },
+    {
+      "bytes": 347,
+      "category": "schemas",
+      "path": "schemas/handoff-packet.schema.md",
+      "sha256": "5f69107c39a32f4eca1afc28cf3cebdd4db62d7ccdc3a4f06a58d00cdbe3fb34"
+    },
+    {
+      "bytes": 211,
+      "category": "schemas",
+      "path": "schemas/machine-readable-companion.schema.md",
+      "sha256": "16779bc0d6e2cb73bebdf48244651b440d8af3d7488dd49e74b25e7f4716010e"
+    },
+    {
+      "bytes": 3354,
+      "category": "schemas",
+      "path": "schemas/stage-1-configuration.schema.yaml",
+      "sha256": "5c55e5ffce995605eb91261b0a33718078d1660ae56f2b3ae5d21da60902f199"
+    },
+    {
+      "bytes": 3374,
+      "category": "schemas",
+      "path": "schemas/stage-2-configuration.schema.yaml",
+      "sha256": "221fe060f338d341be92f28b7414d182f18e4c37fe0f69efa9d4a6d281dea163"
+    },
+    {
+      "bytes": 3373,
+      "category": "schemas",
+      "path": "schemas/stage-3-configuration.schema.yaml",
+      "sha256": "07db7e6f2a00c63a1dc7353042e33cb10e58e78d9f3f1a62865bbb8c48f86b70"
+    },
+    {
+      "bytes": 3371,
+      "category": "schemas",
+      "path": "schemas/stage-4-configuration.schema.yaml",
+      "sha256": "d5c91f8008e08baedecfd18706f1d58e2e2b7ece2e58d1ddde969ab5b467dd20"
+    },
+    {
+      "bytes": 176,
+      "category": "schemas",
+      "path": "schemas/traceability-matrix.schema.md",
+      "sha256": "73cdea515e2f1db0537d6d9b6ba232de46669c5e995de2b2cc1e72cc91e1a930"
+    },
+    {
+      "bytes": 604,
+      "category": "shared",
+      "path": "shared/README.md",
+      "sha256": "e40ffa42343996bc44e84f1e01cec0a27ee43d848f6325fb5fe5388385365adc"
+    },
+    {
+      "bytes": 1102,
+      "category": "shared",
+      "path": "shared/Shared-Artifact-Boundary-Markup.md",
+      "sha256": "e0cb7a70e66fffd3373b137e945974b04b52f3ecaadc7c21f88cd5496daad3c0"
+    },
+    {
+      "bytes": 1947,
+      "category": "shared",
+      "path": "shared/Shared-Configuration-Priority-Rules.md",
+      "sha256": "ca08c59db926adf77cd5cafd3ca58218b1df688d8ac1890952abe8a858f35453"
+    },
+    {
+      "bytes": 5828,
+      "category": "shared",
+      "path": "shared/Shared-Controlled-Vocabularies.md",
+      "sha256": "8ab70f3e3951543b981c60cf587e7d34462544a308135a42b046bf42e547b695"
+    },
+    {
+      "bytes": 1573,
+      "category": "shared",
+      "path": "shared/Shared-Decision-Ledger-Schema.md",
+      "sha256": "bcd282f1841cc13b94c391c900cab928f7161f4b71ca0a301387cf9c680a42e2"
+    },
+    {
+      "bytes": 5515,
+      "category": "shared",
+      "path": "shared/Shared-Definitions.md",
+      "sha256": "96e2318aeee591ea29697434bd664b9f07706dc8a5946bd9fac3894299b41677"
+    },
+    {
+      "bytes": 2215,
+      "category": "shared",
+      "path": "shared/Shared-Document-Header-Template.md",
+      "sha256": "750bbafbf1882dc116ae665854e09b4f2de6b20b9ffa29664037399249279104"
+    },
+    {
+      "bytes": 699,
+      "category": "shared",
+      "path": "shared/Shared-Hidden-Decision-Scan-Schema.md",
+      "sha256": "7a866f56b5ba434261c27a3c8c209f25384ca1cbad476bb15801781360cb6b71"
+    },
+    {
+      "bytes": 2866,
+      "category": "shared",
+      "path": "shared/Shared-ID-Namespace.md",
+      "sha256": "d182ad36fe9e21184d296a9a9efe6b03bcd9c01e5c3087a22e814c104d7f11ae"
+    },
+    {
+      "bytes": 1254,
+      "category": "shared",
+      "path": "shared/Shared-Machine-Readable-Companion-Rules.md",
+      "sha256": "babffe9eb9cc0f6d7a5a21bebc3e802a569035fff1fc584f3c57ecd534df3270"
+    },
+    {
+      "bytes": 1351,
+      "category": "shared",
+      "path": "shared/Shared-Traceability-Rules.md",
+      "sha256": "d6ff9f96d57e2a66e82d680a0e35003ff9a09199b427591457444f8ab70ef3e3"
+    },
+    {
+      "bytes": 667,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/README.md",
+      "sha256": "6eedd7544d3a66e899929963ab9ad641023f1083c636fb4635940cfda82298bf"
+    },
+    {
+      "bytes": 1456,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/Stage-1-Overview.md",
+      "sha256": "f9a79e12313e1b26deb175b697f1af753a7459cbe4a0fbf1a8040629db38e0d6"
+    },
+    {
+      "bytes": 1248,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/Stage-1-Shared-Rules.md",
+      "sha256": "75376dc2abf55abeb7e55b5c8aa921cf442a16aa9253a85395d515bf94e5c226"
+    },
+    {
+      "bytes": 0,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/companion-data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 703,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/prompts/README.md",
+      "sha256": "9645676526d9d6dafeb9a6cbc64677b2668348e873cb1b2def6215837cfee6c3"
+    },
+    {
+      "bytes": 24914,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/prompts/Stage-1-Prompt-1-No-Questions-Full-AI-Design-Fabrication.md",
+      "sha256": "9c3ca64967af4cff7014061c878a22b51d5134c6089316bf282d17e213c76f1f"
+    },
+    {
+      "bytes": 25925,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/prompts/Stage-1-Prompt-2-Low-Stakes-Design-Interview.md",
+      "sha256": "bb2976d2ae60c1891b9163e0929517923f8a9ee06fa279ec8235aa0df531cbee"
+    },
+    {
+      "bytes": 26056,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/prompts/Stage-1-Prompt-3-Medium-Stakes-Design-Interview.md",
+      "sha256": "32e174ce5bd33fdfe5d685cad006cd732c7e96456e6aaa047ead3c57ee585cfe"
+    },
+    {
+      "bytes": 26046,
+      "category": "stage-1-design-specification",
+      "path": "stage-1-design-specification/prompts/Stage-1-Prompt-4-High-Stakes-Design-Interview.md",
+      "sha256": "7a99dc5fbb170a244ec8c5d065e7ce6b7a1b94e62c38626c127a4be8425d1fff"
+    },
+    {
+      "bytes": 670,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/README.md",
+      "sha256": "a21002f5e960293057a70404826c1aad19c8a36a05bb69db56e1c752abdcaf0c"
+    },
+    {
+      "bytes": 1423,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/Stage-2-Overview.md",
+      "sha256": "eade3f5ada8b679bfe46bc7566031d0c11dc351ac0a9858dd6026f4318fb2fe4"
+    },
+    {
+      "bytes": 1253,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/Stage-2-Shared-Rules.md",
+      "sha256": "9bf0831b44f3fac1b9f3aba2567e3090655d93182f523b462a8ad47c768d2f64"
+    },
+    {
+      "bytes": 0,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/companion-data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 726,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/prompts/README.md",
+      "sha256": "df4f5f913922090d72806936d3430c075a1f1efe1d53df1156a79ed6e5887aa4"
+    },
+    {
+      "bytes": 23089,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/prompts/Stage-2-Prompt-1-No-Questions-Full-AI-Execution-Planning.md",
+      "sha256": "c0c19424b213c7843d398bd53b66ac0a4682ec0c520dcdb9332193d363f4675c"
+    },
+    {
+      "bytes": 24189,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/prompts/Stage-2-Prompt-2-Low-Stakes-Execution-Interview.md",
+      "sha256": "25defbfa479595e21f95a5c76f738fd02a3057fe265a19a0fc8c662fd36f4343"
+    },
+    {
+      "bytes": 24308,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/prompts/Stage-2-Prompt-3-Medium-Stakes-Execution-Interview.md",
+      "sha256": "b6a0e925f8dc1a4985cfe360e9fa04431c8633d46d4dbed4f6af8755292357ba"
+    },
+    {
+      "bytes": 24303,
+      "category": "stage-2-execution-planning",
+      "path": "stage-2-execution-planning/prompts/Stage-2-Prompt-4-High-Stakes-Execution-Interview.md",
+      "sha256": "207a8906a9b8fd79e5f02e606d2e66ceb1948f99fd6a660b4f48ec0ab6ea7ace"
+    },
+    {
+      "bytes": 420,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/README.md",
+      "sha256": "c17b23b2f1a842b59e1490458688a9ec34b775c4ac730183a9d95bb5658f0b97"
+    },
+    {
+      "bytes": 2004,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/Stage-3-Overview.md",
+      "sha256": "b638a9b569a91077a891f13dd45c47b9d4464fdc9f686a260200a4eb77eb8acb"
+    },
+    {
+      "bytes": 1908,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/Stage-3-Shared-Rules.md",
+      "sha256": "37ecfe1a1b9d735d87b432f014d9c8d5995dcf2ef03268fe1b826304cefcb84c"
+    },
+    {
+      "bytes": 0,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/companion-data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 736,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/prompts/README.md",
+      "sha256": "7698cb96f0cb5438d2daed73d141e3d13971aab80651c4e152443b1953b89c97"
+    },
+    {
+      "bytes": 32931,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/prompts/Stage-3-Prompt-1-No-Questions-Full-AI-Fabrication.md",
+      "sha256": "2e9ef99dae6c0c6abefafd35ce810c9b8126da25b1650d5ceeabae9e90dbeb21"
+    },
+    {
+      "bytes": 33155,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/prompts/Stage-3-Prompt-2-Low-Stakes-Fabrication-Interview.md",
+      "sha256": "2af265b6df3516835a198714fb030c240b6e1df9da79d5eac3f5d6e18cdb567b"
+    },
+    {
+      "bytes": 33048,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/prompts/Stage-3-Prompt-3-Medium-Stakes-Fabrication-Interview.md",
+      "sha256": "e738760bdf289e80cbdb65d7850368bc7f23ae6983f55c8cb6cd9cfed11ea5c8"
+    },
+    {
+      "bytes": 33219,
+      "category": "stage-3-fabrication",
+      "path": "stage-3-fabrication/prompts/Stage-3-Prompt-4-High-Stakes-Fabrication-Interview.md",
+      "sha256": "7eac9d5bec8e17e5b5d5964dd6b721dd98c4512ff8b73192bb9f9cd9fc9dcf43"
+    },
+    {
+      "bytes": 495,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/README.md",
+      "sha256": "0595afd8ef5dafafe69e517317b8cd0cf2c6e83e80771facb620b84753879c49"
+    },
+    {
+      "bytes": 1905,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/Stage-4-Overview.md",
+      "sha256": "5400442eb30e487400cc935c3dddb4300cf958f5a1021126169e9701abda76c0"
+    },
+    {
+      "bytes": 2031,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/Stage-4-Shared-Rules.md",
+      "sha256": "aa2e3594531a035861882b0ea2c6cc49eca67b05b825b3ecf7df0e842f028344"
+    },
+    {
+      "bytes": 0,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/companion-data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 807,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/prompts/README.md",
+      "sha256": "1cdf5421c50dda1fa6586ef9fe80283a27a7613ae6ef2edd12ecee8fee127cbd"
+    },
+    {
+      "bytes": 32596,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/prompts/Stage-4-Prompt-1-No-Questions-Full-AI-Validation-Packaging.md",
+      "sha256": "2aade454459deb4897010ef31b3e3a5f8586d0d061b977f07dc530555d4a30b0"
+    },
+    {
+      "bytes": 32806,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/prompts/Stage-4-Prompt-2-Low-Stakes-Finalization-Interview.md",
+      "sha256": "1736b08fc592b05c086f3f2141cab94bfd85f186617c88067ef445a8c614844d"
+    },
+    {
+      "bytes": 32950,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/prompts/Stage-4-Prompt-3-Medium-Stakes-Finalization-Interview.md",
+      "sha256": "54e35581ab8b4d1a4a6295f9224f7ec5e6e1e3c20aaa3b284de5c6eb803bbe90"
+    },
+    {
+      "bytes": 33084,
+      "category": "stage-4-validation-packaging",
+      "path": "stage-4-validation-packaging/prompts/Stage-4-Prompt-4-High-Stakes-Finalization-Interview.md",
+      "sha256": "1cb00a284ebeed264f652817986cf6ebd9e859f6cbc60c33d78eab196fb82287"
+    },
+    {
+      "bytes": 2760,
+      "category": "tools",
+      "path": "tools/README.md",
+      "sha256": "f23862bd3407cccea2f15cb8d9d7bf3d2bbd8eb57096e299bcdc3ff3fc0dbca1"
+    },
+    {
+      "bytes": 417,
+      "category": "tools",
+      "path": "tools/_deterministic.py",
+      "sha256": "27ffb866819af3965c825e419d9bbd1497adb4d519a1e94dc53837a4e305239a"
+    },
+    {
+      "bytes": 2177,
+      "category": "tools",
+      "path": "tools/build-manifest.py",
+      "sha256": "135c9f57e63f13808bfc138736653d7b4c67500b478e3fc4cbb84da5ffa776c2"
+    },
+    {
+      "bytes": 3350,
+      "category": "tools",
+      "path": "tools/build-release-manifest.py",
+      "sha256": "2e40c624944d773306204ebec00b66966941ea07c481f4669c932069719a8cc7"
+    },
+    {
+      "bytes": 3426,
+      "category": "tools",
+      "path": "tools/run-all-checks.py",
+      "sha256": "8aa41a03e7f030cee9e99099e647ad01bafaa2a0519eeba07742af9f10ab68f5"
+    },
+    {
+      "bytes": 5407,
+      "category": "tools",
+      "path": "tools/validate-artifact-boundaries.py",
+      "sha256": "05d9910189b205ac6d94686eaffa2b88e495c63e4e7876918bd2c4df6a6cd48b"
+    },
+    {
+      "bytes": 5504,
+      "category": "tools",
+      "path": "tools/validate-configurations.py",
+      "sha256": "0ec8051f1ce1617d15e9f1cdff0ef3b1627b97ac986e1fb49c435f6dd87e550d"
+    },
+    {
+      "bytes": 3992,
+      "category": "tools",
+      "path": "tools/validate-controlled-vocabularies.py",
+      "sha256": "e5ab760c8cbb18364a7491b7076f0c82dcbf0a1b46306f4ea18abfc85ce96e21"
+    },
+    {
+      "bytes": 533,
+      "category": "tools",
+      "path": "tools/validate-decision-ledgers.py",
+      "sha256": "83a2859b534f77d722853e99f1e9afe8a2dde2130f5883a13d28c842e057c448"
+    },
+    {
+      "bytes": 5655,
+      "category": "tools",
+      "path": "tools/validate-examples.py",
+      "sha256": "cd9f57b3f09ab5971a732434b86a1fb2876765b9cb04d99266bbf5650c8d0bcb"
+    },
+    {
+      "bytes": 2631,
+      "category": "tools",
+      "path": "tools/validate-final-publication-recut.py",
+      "sha256": "eca3188a614f91987f2e45b7acf7f1d121686daa48b011ef7823dc2a1936cda4"
+    },
+    {
+      "bytes": 1808,
+      "category": "tools",
+      "path": "tools/validate-github-readiness.py",
+      "sha256": "2468f6aa16efd8b2ee9178b0d734fe3b0f48a1310e4dbc099b63d896359cb8d5"
+    },
+    {
+      "bytes": 452,
+      "category": "tools",
+      "path": "tools/validate-machine-readable-companions.py",
+      "sha256": "32ecf008babfe14682f43de42b3b851855293e86637476e6491e69df036e38e8"
+    },
+    {
+      "bytes": 1136,
+      "category": "tools",
+      "path": "tools/validate-markdown-links.py",
+      "sha256": "2efd47a71c08a851b78d4f56d3a7c3820ff5e83e2cb2c4dff55a29b1e2b87553"
+    },
+    {
+      "bytes": 7010,
+      "category": "tools",
+      "path": "tools/validate-package-structure.py",
+      "sha256": "71fa4530ce34be4f684d0ca59a887eb2ea354c65a84cb09928cde582972b87cb"
+    },
+    {
+      "bytes": 3436,
+      "category": "tools",
+      "path": "tools/validate-profile-depth.py",
+      "sha256": "9d8fa02a8d51970435325082b9d3743dd0f076cd4f65aa45ad9517736e9f23d5"
+    },
+    {
+      "bytes": 4416,
+      "category": "tools",
+      "path": "tools/validate-prompt-files.py",
+      "sha256": "78501ff534e7142544e06454ebd8bfbbde9c97d6a31493e8b114549124a9e28a"
+    },
+    {
+      "bytes": 3260,
+      "category": "tools",
+      "path": "tools/validate-publication-polish.py",
+      "sha256": "459df8ae1200319a37fa4b25a8a6b993c81567c0e7a0acf107ceac4b01cc9b16"
+    },
+    {
+      "bytes": 2997,
+      "category": "tools",
+      "path": "tools/validate-release-readiness.py",
+      "sha256": "58c994ad9f91a9d11bf834c490b2d6c8a9a467d2bcf198e220159419760b5a16"
+    },
+    {
+      "bytes": 1284,
+      "category": "tools",
+      "path": "tools/validate-schemas.py",
+      "sha256": "dee4b761d00dbb01984c930e1c5b803dea1e713b572eb8c47c9e32555c25dd83"
+    },
+    {
+      "bytes": 3647,
+      "category": "tools",
+      "path": "tools/validate-semantic-consistency.py",
+      "sha256": "0e7f7f5aa6f9443310397714c1033a0a12279de462834b525a312499d6380d17"
+    },
+    {
+      "bytes": 2577,
+      "category": "tools",
+      "path": "tools/validate-validation-scope.py",
+      "sha256": "a416a05a3a1d359c84832246a0bb4d2d84fb1e1d61d383448224ecb3aa703e65"
+    }
+  ],
+  "package": {
+    "generation_policy": "Indexes source-controlled package files and excludes generated manifest outputs to avoid self-referential diffs.",
+    "manifest_generation": "deterministic",
+    "name": "DecisionComplete Prompt Pipeline",
+    "repository": "decision-complete-prompt-pipeline",
+    "repository_full_name": "Jayson-Furr/decision-complete-prompt-pipeline",
+    "repository_url": "https://github.com/Jayson-Furr/decision-complete-prompt-pipeline",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+  <ui:VisualElement class="demo-root">
+    <ui:Label name="titleLabel" text="Button Click Demo" class="title" />
+    <ui:Label name="counterLabel" text="Count: 0" class="counter" />
+    <ui:Button name="clickButton" text="Click Me" class="primary-button" />
+  </ui:VisualElement>
+</ui:UXML>

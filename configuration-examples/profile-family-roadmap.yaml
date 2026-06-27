@@ -1,0 +1,130 @@
+metadata:
+  package_name: DecisionComplete Prompt Pipeline
+  repository: Jayson-Furr/decision-complete-prompt-pipeline
+  version: 1.0.0
+  status: roadmap
+shipped_profile_families:
+- family: default
+  stage_files: 4
+  status: included
+- family: unity_game
+  stage_files: 4
+  status: included
+- family: web_application
+  stage_files: 4
+  status: included
+- family: shared_library
+  stage_files: 4
+  status: included
+recommended_future_profile_families:
+- priority: 1
+  family: godot_game
+  slug: godot-game
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 2
+  family: unreal_game
+  slug: unreal-game
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 3
+  family: web_service
+  slug: web-service
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 4
+  family: mobile_application
+  slug: mobile-application
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 5
+  family: desktop_application
+  slug: desktop-application
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 6
+  family: website
+  slug: website
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 7
+  family: desktop_service
+  slug: desktop-service
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 8
+  family: mobile_service
+  slug: mobile-service
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 9
+  family: sdk
+  slug: sdk
+  suggested_stage_files: 4
+  status: planned_candidate
+- priority: 10
+  family: cli_developer_tool
+  slug: cli-developer-tool
+  suggested_stage_files: 4
+  status: planned_candidate
+batch_12_profile_depth_balance:
+  status: complete
+  deepened_profiles:
+  - web_application
+  - shared_library
+  added_depth_areas:
+    web_application:
+    - frontend framework / routing / state management
+    - backend / API / database boundaries
+    - authentication / authorization / privacy review gates
+    - deployment and external validation handling
+    - build, browser, accessibility, security, and privacy validation language
+    shared_library:
+    - public API surface and stability
+    - semantic versioning and breaking change policy
+    - package manager / module format / registry publication gates
+    - compatibility matrix, documentation, examples, and tests
+    - license, security, and public release review gates
+  validation_semantics:
+    validation_scope: repository_structure_and_consistency
+    semantic_validation_depth: limited
+profile_depth_status:
+  default:
+    status: baseline
+    stage_files: 4
+  unity_game:
+    status: deep_profile
+    stage_files: 4
+    depth_reference_profile: true
+  web_application:
+    status: deepened_in_batch_12
+    stage_files: 4
+    depth_balanced_with_unity: true
+  shared_library:
+    status: deepened_in_batch_12
+    stage_files: 4
+    depth_balanced_with_unity: true
+profile_authoring_standard:
+  every_profile_family_requires_stage_files:
+  - stage_1
+  - stage_2
+  - stage_3
+  - stage_4
+  profile_depth_contract_required_for_new_profiles: true
+  must_preserve_stage_authority: true
+  must_preserve_safety_and_review_gates: true
+  must_define_external_validation_domains: true
+profile_family_depth_status:
+  unity_game: deep
+  web_application: deepened_v1_0_0_batch_12
+  shared_library: deepened_v1_0_0_batch_12
+  default: baseline
+recommended_next_profile_families:
+- godot_game
+- unreal_game
+- web_service
+- mobile_application
+- desktop_application
+- sdk
+- cli_developer_tool
+- ai_agent_application

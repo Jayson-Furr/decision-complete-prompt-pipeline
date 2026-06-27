@@ -1,0 +1,33 @@
+{
+  "batch": 5,
+  "package": "DecisionComplete Prompt Pipeline",
+  "repository": "decision-complete-prompt-pipeline",
+  "version": "1.0.0",
+  "approximate_completion": "75%",
+  "added": [
+    "default stage configurations",
+    "Unity game profiles",
+    "web application profiles",
+    "shared library / SDK profiles",
+    "configuration index"
+  ],
+  "configuration_files": [
+    "stage-1-default.configuration.yaml",
+    "stage-1-shared-library.configuration.yaml",
+    "stage-1-unity-game.configuration.yaml",
+    "stage-1-web-application.configuration.yaml",
+    "stage-2-default.configuration.yaml",
+    "stage-2-shared-library.configuration.yaml",
+    "stage-2-unity-game.configuration.yaml",
+    "stage-2-web-application.configuration.yaml",
+    "stage-3-default.configuration.yaml",
+    "stage-3-shared-library.configuration.yaml",
+    "stage-3-unity-game.configuration.yaml",
+    "stage-3-web-application.configuration.yaml",
+    "stage-4-default.configuration.yaml",
+    "stage-4-shared-library.configuration.yaml",
+    "stage-4-unity-game.configuration.yaml",
+    "stage-4-web-application.configuration.yaml",
+    "configuration-index.yaml"
+  ]
+}

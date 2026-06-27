@@ -1,0 +1,25 @@
+.demo-root {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background-color: #f5f7fb;
+}
+.title {
+  font-size: 28px;
+  -unity-font-style: bold;
+  color: #172033;
+  margin-bottom: 16px;
+}
+.counter {
+  font-size: 20px;
+  color: #33405c;
+  margin-bottom: 16px;
+}
+.primary-button {
+  min-width: 160px;
+  height: 44px;
+  background-color: #2457d6;
+  color: #ffffff;
+  border-radius: 8px;
+}

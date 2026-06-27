@@ -1,0 +1,5 @@
+Stage 1 Entity ID,Stage 1 Entity Name,Requirement IDs,Acceptance Criteria IDs,Screen IDs,Asset IDs,Notes
+S1-FEAT-001,Add Todo,S1-REQ-001,S1-AC-001,S1-SCR-001,S1-AST-001; S1-AST-002,Add feature traced.
+S1-FEAT-002,Toggle Todo Completion,S1-REQ-002,S1-AC-002,S1-SCR-001,S1-AST-002,Toggle feature traced.
+S1-FEAT-003,Delete Todo,S1-REQ-003,S1-AC-003,S1-SCR-001,S1-AST-002,Delete feature traced.
+S1-FEAT-004,Empty State,S1-REQ-004,S1-AC-004,S1-SCR-001,S1-AST-001,Empty state traced.

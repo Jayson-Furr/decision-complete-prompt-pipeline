@@ -1,0 +1,44 @@
+{
+  "work_packages": [
+    {
+      "execution_status": "Ready",
+      "expected_artifacts": [
+        "S2-ARTEXP-001",
+        "S2-ARTEXP-002",
+        "S2-ARTEXP-003",
+        "S2-ARTEXP-004"
+      ],
+      "source_stage_1_ids": [
+        "S1-SCR-001",
+        "S1-REQ-001",
+        "S1-REQ-004"
+      ],
+      "work_package_id": "S2-WP-001",
+      "work_package_name": "React App Shell"
+    },
+    {
+      "execution_status": "Ready",
+      "expected_artifacts": [
+        "S2-ARTEXP-005"
+      ],
+      "source_stage_1_ids": [
+        "S1-FEAT-001",
+        "S1-FEAT-002",
+        "S1-FEAT-003"
+      ],
+      "work_package_id": "S2-WP-002",
+      "work_package_name": "Todo State and Interactions"
+    },
+    {
+      "execution_status": "Ready",
+      "expected_artifacts": [
+        "S2-ARTEXP-006"
+      ],
+      "source_stage_1_ids": [
+        "S1-DOC-019"
+      ],
+      "work_package_id": "S2-WP-003",
+      "work_package_name": "Documentation and Handoff"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "batch": 9,
+  "name": "Publication hardening and repository owner kit",
+  "package_name": "DecisionComplete Prompt Pipeline",
+  "repository_name": "decision-complete-prompt-pipeline",
+  "version": "1.0.0",
+  "status": "complete",
+  "completion_percent": 100,
+  "generated_at_utc": "2026-06-27T05:35:52.812668+00:00",
+  "added": [
+    ".github/ISSUE_TEMPLATE/configuration_profile_request.md",
+    ".github/ISSUE_TEMPLATE/documentation_issue.md",
+    ".github/ISSUE_TEMPLATE/prompt_quality_report.md",
+    ".github/ISSUE_TEMPLATE/question.md",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/dependabot.yml",
+    ".github/labeler.yml",
+    ".github/labels.yaml",
+    "ADOPTERS.md",
+    "FINAL-PACKAGE-NOTES.md",
+    "GOVERNANCE.md",
+    "MAINTAINERS.md",
+    "docs/Forking-and-Customization-Guide.md",
+    "docs/GitHub-Repository-Administration.md",
+    "docs/Pre-Publication-Audit.md",
+    "docs/Repository-Owner-Checklist.md"
+  ],
+  "changed": [
+    "README.md",
+    "CHANGELOG.md",
+    "MANIFEST.md",
+    "PACKAGE-BUILD-STATUS.md",
+    "repository-metadata.yaml"
+  ],
+  "removed": [],
+  "validation_status": "passed",
+  "zip_status": "created",
+  "updated_at_utc": "2026-06-27T05:38:10.903972+00:00"
+}

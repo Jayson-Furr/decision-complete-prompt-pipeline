@@ -1,0 +1,41 @@
+{
+  "added": [
+    "examples/minimal-complete-run/README.md",
+    "examples/minimal-complete-run/todo-web-app/",
+    "examples/minimal-complete-run/unity-button-click-prototype/",
+    "docs/Complete-Miniature-Run-Guide.md"
+  ],
+  "batch": 11,
+  "changed": [
+    "README.md",
+    "MANIFEST.md",
+    "CHANGELOG.md",
+    "PACKAGE-BUILD-STATUS.md",
+    "repository-metadata.yaml",
+    "examples/README.md",
+    "docs/Example-Scenario-Guide.md",
+    "docs/Example-Walkthroughs.md",
+    "docs/Quick-Start.md",
+    "tools/validate-examples.py",
+    "tools/validate-artifact-boundaries.py",
+    "tools/validate-package-structure.py"
+  ],
+  "complete_runs": [
+    {
+      "final_handoff_status": "Ready with Warnings",
+      "name": "todo-web-app",
+      "product_type": "web_application"
+    },
+    {
+      "final_handoff_status": "External Validation Required",
+      "name": "unity-button-click-prototype",
+      "product_type": "unity_game"
+    }
+  ],
+  "completion_percent": 100,
+  "package": "DecisionComplete Prompt Pipeline",
+  "purpose": "Add complete miniature examples demonstrating the full Stage 1 through Stage 4 artifact chain.",
+  "repository": "Jayson-Furr/decision-complete-prompt-pipeline",
+  "status": "complete",
+  "version": "1.0.0"
+}

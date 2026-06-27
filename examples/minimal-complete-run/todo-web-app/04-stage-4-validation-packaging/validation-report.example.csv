@@ -1,0 +1,4 @@
+Validation ID,Artifact ID,Source Stage 3 Result ID,Source Stage 2 Work Package ID,Source Stage 1 Design IDs,Validation Type,Method,Result,Repair Status,Final Classification,Notes
+S4-VAL-001,S3-ART-001,S3-FR-001,S2-WP-001,"S1-DEC-001; S1-DEC-002",Schema Check,Static review,Passed,No Repair Needed,Ready,package.json scoped to frontend prototype.
+S4-VAL-002,S3-ART-003,S3-FR-002,S2-WP-002,"S1-FEAT-001; S1-FEAT-002; S1-FEAT-003; S1-FEAT-004",Design Lock Check,Manual review,Passed,No Repair Needed,Ready,Required features present.
+S4-VAL-003,S3-ART-006,S3-FR-003,S2-WP-003,S1-AC-001,Test Execution,Not run,Not Run,Not Applicable,Ready with Warnings,External validation required if assurance needed.

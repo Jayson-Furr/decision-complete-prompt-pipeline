@@ -1,0 +1,5 @@
+Stage 1 Entity ID,Stage 2 Work Package ID,Stage 3 Fabrication Result ID,Artifact IDs,Validation IDs,Status,Notes
+S1-FEAT-001,S2-WP-002,S3-FR-002,S3-ART-003,S3-VAL-002,Fabricated,Add todo implemented in App.tsx.
+S1-FEAT-002,S2-WP-002,S3-FR-002,S3-ART-003,S3-VAL-002,Fabricated,Toggle implemented in App.tsx.
+S1-FEAT-003,S2-WP-002,S3-FR-002,S3-ART-003,S3-VAL-002,Fabricated,Delete implemented in App.tsx.
+S1-REQ-005,S2-WP-001,S3-FR-001,S3-ART-001,S3-VAL-001,Fabricated,No backend dependencies included.

@@ -1,0 +1,20 @@
+{
+  "batch": 6,
+  "package": "DecisionComplete Prompt Pipeline",
+  "repository": "decision-complete-prompt-pipeline",
+  "version": "1.0.0",
+  "approximate_completion": "87%",
+  "added_layers": [
+    "comprehensive usage documentation",
+    "GitHub publishing checklist",
+    "example scenario guide",
+    "Unity game example packet",
+    "web application example packet",
+    "shared library example packet",
+    "runbooks for Stage 1 through Stage 4",
+    "artifact skeletons",
+    "sample decision ledgers",
+    "sample traceability matrices"
+  ],
+  "created_at_utc": "2026-06-27T04:57:41Z"
+}

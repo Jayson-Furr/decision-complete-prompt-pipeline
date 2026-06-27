@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "DecisionComplete Prompt Pipeline"
+message: "If you use this prompt package, cite the repository."
+type: software
+version: "1.0.0"
+date-released: "2026-06-27"
+repository-code: "https://github.com/Jayson-Furr/decision-complete-prompt-pipeline"
+abstract: "A four-stage prompt pipeline that transforms rough digital-product input into decision-complete specifications, execution-ready fabrication plans, fabricated deliverables, and validation-complete final handoff packages."
+license: "MIT"
+authors:
+  - name: "Jayson Furr"
+    affiliation: "Personal GitHub repository"
+keywords:
+  - prompt-engineering
+  - product-design
+  - software-planning
+  - documentation
+  - traceability
+  - ai-workflows

@@ -1,0 +1,49 @@
+{
+  "work_packages": [
+    {
+      "expected_artifacts": [
+        "S2-ARTEXP-001",
+        "S2-ARTEXP-002"
+      ],
+      "name": "Web App Scaffold",
+      "source_stage_1_ids": [
+        "S1-DEC-001",
+        "S1-DEC-002"
+      ],
+      "status": "Ready",
+      "work_package_id": "S2-WP-001"
+    },
+    {
+      "expected_artifacts": [
+        "S2-ARTEXP-003",
+        "S2-ARTEXP-004",
+        "S2-ARTEXP-005"
+      ],
+      "name": "Todo UI and State",
+      "source_stage_1_ids": [
+        "S1-FEAT-001",
+        "S1-FEAT-002",
+        "S1-FEAT-003",
+        "S1-FEAT-004"
+      ],
+      "status": "Ready",
+      "work_package_id": "S2-WP-002"
+    },
+    {
+      "expected_artifacts": [
+        "S2-ARTEXP-006",
+        "S2-ARTEXP-007"
+      ],
+      "name": "Documentation and Tests",
+      "source_stage_1_ids": [
+        "S1-REQ-001",
+        "S1-REQ-002",
+        "S1-REQ-003",
+        "S1-REQ-004",
+        "S1-REQ-005"
+      ],
+      "status": "Ready",
+      "work_package_id": "S2-WP-003"
+    }
+  ]
+}

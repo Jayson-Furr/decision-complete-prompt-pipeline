@@ -1,0 +1,19 @@
+{
+  "final_artifacts": [
+    {
+      "final_artifact_id": "S4-FINAL-001",
+      "final_status": "Included with Warning",
+      "path": "fabricated-files/Assets/_Project/Scripts/Runtime/ButtonClickCounter.cs",
+      "source_artifact_id": "S3-ART-001",
+      "validation_status": "Not Run"
+    },
+    {
+      "final_artifact_id": "S4-FINAL-006",
+      "final_status": "External-Tool-Required",
+      "path": "fabricated-files/ExternalToolPackets/UnitySceneCreationPacket.md",
+      "source_artifact_id": "S3-EXT-001",
+      "validation_status": "Not Applicable"
+    }
+  ],
+  "final_handoff_status": "External Validation Required"
+}

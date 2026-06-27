@@ -1,0 +1,38 @@
+{
+  "work_packages": [
+    {
+      "execution_status": "Ready",
+      "expected_artifacts": [
+        "S2-ARTEXP-001",
+        "S2-ARTEXP-002"
+      ],
+      "name": "UI Toolkit Documents",
+      "work_package_id": "S2-WP-001"
+    },
+    {
+      "execution_status": "Ready",
+      "expected_artifacts": [
+        "S2-ARTEXP-003"
+      ],
+      "name": "Button Click Controller",
+      "work_package_id": "S2-WP-002"
+    },
+    {
+      "execution_status": "Ready",
+      "expected_artifacts": [
+        "S2-ARTEXP-004",
+        "S2-ARTEXP-005"
+      ],
+      "name": "Scene Creation and Validation Packet",
+      "work_package_id": "S2-WP-003"
+    },
+    {
+      "execution_status": "Ready",
+      "expected_artifacts": [
+        "S2-ARTEXP-006"
+      ],
+      "name": "Unity Tests",
+      "work_package_id": "S2-WP-004"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Trace ID,Stage 1 Source IDs,Stage 2 Work Package IDs,Stage 3 Artifact IDs,Stage 4 Final Artifact IDs,Validation IDs,Final Status,Notes
+S4-TRACE-001,"S1-FEAT-001; S1-AC-001",S2-WP-001,"S3-ART-001; S3-ART-002","S4-FINAL-001; S4-FINAL-002",S4-VAL-001,External Validation Required,Counter logic traced but compile validation required.
+S4-TRACE-002,"S1-SCR-001; S1-AST-001",S2-WP-002,"S3-ART-003; S3-ART-004","S4-FINAL-003; S4-FINAL-004",S4-VAL-002,External Validation Required,UI Toolkit artifacts traced but import validation required.
+S4-TRACE-003,S1-SCR-001,S2-WP-003,S3-EXT-001,S4-FINAL-006,S4-VAL-004,External-Tool-Required,Actual Unity scene creation requires Unity Editor.

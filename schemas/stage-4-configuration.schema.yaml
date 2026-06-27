@@ -1,0 +1,75 @@
+schema_metadata:
+  schema_name: stage_4_configuration.schema
+  schema_version: 1.0.0
+  package_name: DecisionComplete Prompt Pipeline
+  repository: Jayson-Furr/decision-complete-prompt-pipeline
+  applies_to_stage: stage_4
+  artifact_target: 100% Validation-Complete Final Handoff Package Suite
+  schema_type: human-readable-yaml-schema-guide
+  schema_status: aligned_with_v1_0_0_configuration_examples
+required_top_level_keys: &id001
+- configuration_metadata
+- prompt_mode
+- stage_authority
+- input_handling
+- configuration_priority
+- output_suite
+- artifact_boundary_markers
+- required_document_tree
+- document_headers
+- decision_logging
+- placeholder_policy
+- review_gated_policy
+- safety_and_integrity
+- traceability
+- machine_readable_companions
+- completion_gate
+- status
+recommended_stage_specific_top_level_keys:
+- validation_scope
+- validation
+- repair_policy
+- final_artifact_manifest
+- release_and_authorization
+- hidden_finalization_decision_scan
+allowed_profile_extension_prefixes:
+- product_profile
+- unity_
+- web_
+- shared_library_
+- library_
+- web_application_
+allowed_prompt_modes:
+- no_questions_full_ai_validation_packaging
+- low_stakes_finalization_interview
+- medium_stakes_finalization_interview
+- high_stakes_finalization_interview
+common_required_semantics:
+- Configuration files may not disable safety, integrity, non-deception, or no-unauthorized-side-effect rules.
+- Configuration files may not override prior-stage authority.
+- Prompt mode conflicts are resolved by the active prompt file unless the user explicitly switches modes.
+- Machine-readable values should use snake_case field names and controlled vocabulary values.
+- Product-type profiles may extend the required keys with profile-specific top-level sections.
+validation_notes:
+- This file is a human-readable YAML schema guide for repository validation and profile authoring.
+- The repository validators check required top-level keys, selected prompt modes, owner metadata, and safety/review language.
+- Future versions may replace this guide with formal JSON Schema or a stricter YAML schema dialect.
+- Batch 12 validators check profile depth blocks for Unity, web application, and shared library profile families.
+required_explicit_top_level_keys: *id001
+schema_inheritance_policy:
+  default_stage_profiles_must_include_all_required_explicit_top_level_keys: true
+  product_type_specific_profiles_may_extend_stage_defaults: true
+  product_type_specific_profiles_should_declare_configuration_metadata_extends: true
+  profile_extensions_must_not_disable_safety_or_stage_authority: true
+  applies_to_stage: stage_4
+optional_profile_depth_sections:
+  profile_depth_contract: Recommended for product-specific profiles. Records product family, maturity, stage-specific depth,
+    validation depth, and safety domains.
+  web_application_*_profile: Allowed product-specific deepening sections for web application profiles.
+  shared_library_sdk_*_profile: Allowed product-specific deepening sections for shared library / SDK profiles.
+validation_scope_statement: Schema guides support repository structure and consistency validation; they do not prove downstream
+  artifact semantic correctness.
+validation_scope:
+  scope_type: repository_structure_and_consistency
+  does_not_prove_downstream_artifact_correctness: true
+  does_not_prove_legal_security_compliance_or_release_readiness: true

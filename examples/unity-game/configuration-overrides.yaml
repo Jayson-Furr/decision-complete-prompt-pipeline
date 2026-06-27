@@ -1,0 +1,38 @@
+configuration_metadata:
+  config_name: "example-unity-game-starfall-cartographer"
+  config_version: "1.0.0"
+  applies_to_example: "examples/unity-game"
+  extends:
+    - "configuration-examples/stage-1-unity-game.configuration.yaml"
+    - "pipeline.configuration.yaml"
+
+product:
+  product_name: "Starfall Cartographer"
+  product_type: "unity_game"
+  release_tier: "MVP"
+  target_platforms:
+    - "Windows"
+    - "macOS"
+
+toolchain:
+  engine: "Unity"
+  unity_version: "6000.4.11f1"
+  render_pipeline: "Universal Render Pipeline with 2D Renderer"
+  ui_framework: "UI Toolkit"
+  input_system: "Unity Input System"
+
+prompt_mode_recommendation:
+  stage_1: "medium_stakes_design_interview"
+  stage_2: "medium_stakes_execution_interview"
+  stage_3: "medium_stakes_fabrication_interview"
+  stage_4: "medium_stakes_finalization_interview"
+
+safety_and_integrity:
+  public_release_authorized: false
+  store_submission_authorized: false
+  assume_rights_from_reference_art: false
+  require_rights_review_for_music_and_reference_images: true
+
+example_notes:
+  artifact_stubs_are_complete_outputs: false
+  use_artifact_stubs_for_structure_only: true

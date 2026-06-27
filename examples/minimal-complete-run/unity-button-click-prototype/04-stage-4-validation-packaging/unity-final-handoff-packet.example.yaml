@@ -1,0 +1,38 @@
+stage_4_artifact:
+  artifact_name: "Button Click Prototype Stage 4 Final Handoff Package"
+  status: "100% Validation-Complete"
+  final_handoff_status: "External Validation Required"
+  product_type: "Unity game"
+  product_name: "Button Click Prototype"
+
+unity_validation_requirements:
+  target_unity_version: "Unity 6000.4.11f1"
+  compile_validation_required: true
+  ui_toolkit_import_validation_required: true
+  scene_creation_required: true
+  edit_mode_tests_required: true
+  player_build_not_performed: true
+
+release:
+  deployment_performed: false
+  public_release_performed: false
+  app_store_submission_performed: false
+  release_authorization_required: true
+
+critical_registers:
+  final_artifacts:
+    - "S4-FINAL-001"
+    - "S4-FINAL-002"
+    - "S4-FINAL-003"
+    - "S4-FINAL-004"
+    - "S4-FINAL-005"
+    - "S4-FINAL-006"
+  external_validation_required_items:
+    - "S4-DEF-001"
+    - "S4-DEF-002"
+    - "S4-DEF-004"
+  external_tool_required_items:
+    - "S4-DEF-003"
+  approval_items:
+    - "S4-APP-001"
+    - "S4-APP-002"

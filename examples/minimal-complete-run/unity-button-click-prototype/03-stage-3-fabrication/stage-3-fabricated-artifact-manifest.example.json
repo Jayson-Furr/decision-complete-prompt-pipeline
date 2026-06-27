@@ -1,0 +1,75 @@
+{
+  "external_tool_required_items": [
+    {
+      "expected_path": "Assets/_Project/Scenes/ButtonClickDemo.unity",
+      "external_tool_item_id": "S3-EXT-001",
+      "required_tool": "Unity Editor",
+      "status": "External-Tool-Required"
+    }
+  ],
+  "fabricated_artifacts": [
+    {
+      "artifact_id": "S3-ART-001",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/_Project/UI/UXML/ButtonClickDemo.uxml",
+      "source_work_package_id": "S2-WP-001",
+      "validation_status": "Passed"
+    },
+    {
+      "artifact_id": "S3-ART-002",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/_Project/UI/USS/ButtonClickDemo.uss",
+      "source_work_package_id": "S2-WP-001",
+      "validation_status": "Passed"
+    },
+    {
+      "artifact_id": "S3-ART-003",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/_Project/Scripts/Runtime/ButtonClickCounter.cs",
+      "source_work_package_id": "S2-WP-002",
+      "validation_status": "Partially Passed"
+    },
+    {
+      "artifact_id": "S3-ART-006",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/Tests/EditMode/ButtonClickCounterTests.cs",
+      "source_work_package_id": "S2-WP-004",
+      "validation_status": "Not Run"
+    },
+    {
+      "artifact_id": "S3-ART-007",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/_Project/Scripts/UI/ClickButtonPresenter.cs",
+      "source_work_package_id": "S2-WP-002",
+      "validation_status": "Partially Passed"
+    },
+    {
+      "artifact_id": "S3-ART-008",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/_Project/UI/UXML/ClickButtonScreen.uxml",
+      "source_work_package_id": "S2-WP-001",
+      "validation_status": "Passed"
+    },
+    {
+      "artifact_id": "S3-ART-009",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/_Project/UI/USS/ClickButtonScreen.uss",
+      "source_work_package_id": "S2-WP-001",
+      "validation_status": "Passed"
+    },
+    {
+      "artifact_id": "S3-ART-010",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/ExternalToolPackets/UnitySceneCreationPacket.md",
+      "source_work_package_id": "S2-WP-003",
+      "validation_status": "Passed"
+    },
+    {
+      "artifact_id": "S3-ART-011",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/ExternalValidation/UnityEditorValidationChecklist.md",
+      "source_work_package_id": "S2-WP-003",
+      "validation_status": "Passed"
+    }
+  ]
+}

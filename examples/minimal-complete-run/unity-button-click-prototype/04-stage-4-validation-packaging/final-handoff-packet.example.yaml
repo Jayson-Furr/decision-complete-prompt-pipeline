@@ -1,0 +1,32 @@
+stage_4_artifact:
+  artifact_name: "Button Click Demo Stage 4 Final Handoff Package Suite"
+  status: "100% Validation-Complete"
+  final_handoff_status: "External Validation Required"
+  product_type: "Unity game"
+  product_name: "Button Click Demo"
+
+final_package_instructions:
+  do_not_treat_external_validation_required_as_validated: true
+  open_project_in_target_unity_version_before_release: true
+  run_compile_validation_before_release: true
+  run_edit_mode_tests_before_release: true
+  create_scene_from_external_tool_packet_before release: true
+  do_not_publish_without_explicit_authorization: true
+
+critical_registers:
+  final_artifacts:
+    - "S4-FINAL-001"
+    - "S4-FINAL-002"
+    - "S4-FINAL-003"
+    - "S4-FINAL-004"
+    - "S4-FINAL-005"
+  validation_results:
+    - "S4-VAL-001"
+    - "S4-VAL-003"
+  unresolved_items:
+    - "S4-DEF-001"
+    - "S4-DEF-002"
+    - "S4-DEF-003"
+  approval_items:
+    - "S4-APP-001"
+    - "S4-APP-002"

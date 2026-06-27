@@ -1,0 +1,31 @@
+{
+  "fabricated_artifacts": [
+    {
+      "artifact_id": "S3-ART-001",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/_Project/Scripts/Runtime/ButtonClickCounter.cs",
+      "source_work_package_id": "S2-WP-001",
+      "stage_4_action": "External Validation Required",
+      "unity_artifact_kind": "CSharpScript",
+      "validation_status": "Not Run"
+    },
+    {
+      "artifact_id": "S3-ART-003",
+      "fabrication_status": "Fabricated",
+      "path": "fabricated-files/Assets/_Project/UI/UXML/ClickButtonScreen.uxml",
+      "source_work_package_id": "S2-WP-002",
+      "stage_4_action": "External Validation Required",
+      "unity_artifact_kind": "UXML",
+      "validation_status": "Not Run"
+    },
+    {
+      "artifact_id": "S3-EXT-001",
+      "fabrication_status": "External-Tool-Required",
+      "path": "fabricated-files/ExternalToolPackets/UnitySceneCreationPacket.md",
+      "source_work_package_id": "S2-WP-003",
+      "stage_4_action": "External Tool Required",
+      "unity_artifact_kind": "SceneSpecification",
+      "validation_status": "Not Applicable"
+    }
+  ]
+}

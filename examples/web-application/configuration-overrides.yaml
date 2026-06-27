@@ -1,0 +1,29 @@
+configuration_metadata:
+  config_name: "example-web-application-civicissue-board"
+  config_version: "1.0.0"
+  applies_to_example: "examples/web-application"
+  extends:
+    - "configuration-examples/stage-1-web-application.configuration.yaml"
+    - "pipeline.configuration.yaml"
+
+product:
+  product_name: "CivicIssue Board"
+  product_type: "web_application"
+  release_tier: "MVP"
+
+toolchain:
+  frontend_framework: "React"
+  language: "TypeScript"
+  backend: "Node.js"
+  database: "PostgreSQL"
+
+security_and_privacy:
+  authentication_required: true
+  authorization_required: true
+  personal_data_handling_review_required: true
+  location_data_handling_review_required: true
+
+release_and_deployment:
+  production_deployment_authorized: false
+  public_release_authorized: false
+  prepare_deployment_notes_only: true

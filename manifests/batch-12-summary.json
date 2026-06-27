@@ -1,0 +1,21 @@
+{
+  "added": [
+    "docs/Profile-Authoring-Guide.md",
+    "docs/Profile-Depth-Balance-Report.md",
+    "docs/Validation-Scope-and-Guarantees.md",
+    "tools/validate-profile-depth.py",
+    "tools/validate-validation-scope.py",
+    "tools/validate-semantic-consistency.py"
+  ],
+  "batch": 12,
+  "completion_percent": 100,
+  "deepened_profile_families": [
+    "web_application",
+    "shared_library"
+  ],
+  "focus": "Profile-depth balancing and validation-scope hardening",
+  "package": "DecisionComplete Prompt Pipeline",
+  "repository": "Jayson-Furr/decision-complete-prompt-pipeline",
+  "validation_scope": "repository_structure_and_consistency",
+  "version": "1.0.0"
+}

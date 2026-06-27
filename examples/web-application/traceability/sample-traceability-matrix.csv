@@ -1,0 +1,4 @@
+Trace ID,Stage 1 Source IDs,Stage 2 Work Package IDs,Stage 3 Artifact IDs,Stage 4 Final Artifact IDs,Status,Notes
+S4-TRACE-001,"S1-FEAT-001; S1-REQ-001; S1-AC-001","S2-WP-001","S3-ART-001","S4-FINAL-001","Fully Traced","Primary Web application feature trace sample."
+S4-TRACE-002,"S1-AST-001; S1-REV-001","S2-WP-003","S3-EXT-001","","External-Tool-Required","Asset requires external tool or rights review before final release."
+S4-TRACE-003,"S1-PH-001","S2-PH-001","S3-PH-001","S4-DEF-001","Placeholder-Complete","Product placeholder preserved through final handoff."

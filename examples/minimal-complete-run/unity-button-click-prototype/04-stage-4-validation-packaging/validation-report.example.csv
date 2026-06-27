@@ -1,0 +1,3 @@
+Validation ID,Artifact ID,Source Stage 3 Result ID,Source Stage 2 Work Package ID,Source Stage 1 Design IDs,Validation Type,Method,Result,Repair Status,Final Classification,Notes
+S4-VAL-001,S3-ART-001,S3-FR-001,S2-WP-001,S1-SCR-001,UI Toolkit Validation,Static review,Passed,No Repair Needed,Ready with Warnings,Unity import not run.
+S4-VAL-003,S3-ART-003,S3-FR-002,S2-WP-002,S1-FEAT-001; S1-FEAT-002,Unity Compilation,Not run,Partially Passed,No Repair Needed,External Validation Required,Compile in Unity before release.

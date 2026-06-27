@@ -1,0 +1,20 @@
+{
+  "batch": 4,
+  "package": "package-4",
+  "approximate_completion_percent": 60,
+  "added": [
+    "Stage 3 prompt library",
+    "Stage 4 prompt library",
+    "Stage 3 overview and shared rules",
+    "Stage 4 overview and shared rules"
+  ],
+  "changed": [
+    "README.md",
+    "MANIFEST.md",
+    "CHANGELOG.md",
+    "PACKAGE-BUILD-STATUS.md",
+    "repository-metadata.yaml",
+    "tools/validate-package-structure.py"
+  ],
+  "removed": []
+}

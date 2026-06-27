@@ -1,0 +1,21 @@
+configuration_metadata:
+  config_name: "todo-web-app-minimal-complete-run"
+  config_version: "1.0.0"
+  applies_to_example: "examples/minimal-complete-run/todo-web-app"
+
+prompt_modes:
+  stage_1: "medium_stakes_design_interview"
+  stage_2: "medium_stakes_execution_interview"
+  stage_3: "medium_stakes_fabrication_interview"
+  stage_4: "medium_stakes_finalization_interview"
+
+product:
+  product_type: "web_application"
+  product_name: "Tiny Tasks"
+  release_tier: "Prototype"
+
+safety:
+  authentication: "Not Applicable"
+  personal_data_backend: "Not Applicable"
+  deployment: "Not Performed"
+  external_services: "Not Applicable"
